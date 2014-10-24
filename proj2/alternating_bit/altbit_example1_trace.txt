@@ -1,0 +1,2779 @@
+-bash-3.2$ ./p2_altbit 
+-----  Network Simulator Version    2.3 -------- 
+
+Enter the number of messages to simulate: 100
+Packet loss probability [enter number between 0.0 and 1.0]: 0
+Packet corruption probability [0.0 for no corruption]: 0
+Packet out-of-order probability [0.0 for no out-of-order]: 0
+Average time between messages from sender's layer5 [ > 0.0]: 1000
+Enter Level of tracing desired: 2
+Do you want actions randomized: (1 = yes, 0 = no)? 0
+Do you want Bidirectional: (1 = yes, 0 = no)? 0
+Input parameters:
+Number of Messages = 100  Lost Packet Prob. =   0.000
+Corrupt Packet Prob. =   0.000  Out Of Order Prob. =   0.000
+Ave. time between messages =  1000.00  Trace level = 2
+Randomize = 0  Bi-directional = 0
+
+A:    1080.0336,  Layer 5 to 4  Message = !fEVhy->Pbs'2J3m~2DU
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: 347271689
+Payload: !fEVhy->Pbs'2J3m~2DU????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: !fEVhy->Pbs'2J3m~2DU----
+B:    1088.3078,  Layer 4 to 5  Message = !fEVhy->Pbs'2J3m~2DU
+
+----B is sending packet which has ACK value: 0----
+
+----A has received the proper packet, with ACK value: 0----
+A:    1204.7785,  Layer 5 to 4  Message = ##i.Qt9]!Eh-Ps8[~Dg,
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: -1986825766
+Payload: ##i.Qt9]!Eh-Ps8[~Dg,????
+A is expecting ACK value of 1
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: ##i.Qt9]!Eh-Ps8[~Dg,----
+B:    1223.5961,  Layer 4 to 5  Message = ##i.Qt9]!Eh-Ps8[~Dg,
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:    1653.7829,  Layer 5 to 4  Message = $X$d:oFzQ(]3h>sJ~U,a
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: -643832352
+Payload: $X$d:oFzQ(]3h>sJ~U,a????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: $X$d:oFzQ(]3h>sJ~U,a----
+B:    1672.4888,  Layer 4 to 5  Message = $X$d:oFzQ(]3h>sJ~U,a
+
+----B is sending packet which has ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:    2690.4067,  Layer 5 to 4  Message = %kS%$jR:#iQ9!hP8~gO7
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: 1504727601
+Payload: %kS%$jR:#iQ9!hP8~gO7????
+A is expecting ACK value of 1
+A:    2691.4933,  Layer 5 to 4  Message = &}wq&e_XRLF?93-'~xrl
+
+----A is currently waiting for ACK value 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: %kS%$jR:#iQ9!hP8~gO7----
+B:    2717.3247,  Layer 4 to 5  Message = %kS%$jR:#iQ9!hP8~gO7
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:    3336.0982,  Layer 5 to 4  Message = '2=IT'kv$x:FQ]hs~,7C
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: 1745700668
+Payload: '2=IT'kv$x:FQ]hs~,7C????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: '2=IT'kv$x:FQ]hs~,7C----
+B:    3350.1069,  Layer 4 to 5  Message = '2=IT'kv$x:FQ]hs~,7C
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:    4238.2991,  Layer 5 to 4  Message = (Eb~=Z(6SpxLi(Eb~=Zw
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: -882163636
+Payload: (Eb~=Z(6SpxLi(Eb~=Zw????
+A is expecting ACK value of 1
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: (Eb~=Z(6SpxLi(Eb~=Zw----
+B:    4250.2221,  Layer 4 to 5  Message = (Eb~=Z(6SpxLi(Eb~=Zw
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:    4705.1681,  Layer 5 to 4  Message = dW(V'U&)%S$R2Q!P~O}N
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: -582924254
+Payload: dW(V'U&)%S$R2Q!P~O}N????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: dW(V'U&)%S$R2Q!P~O}N----
+B:    4712.9178,  Layer 4 to 5  Message = dW(V'U&)%S$R2Q!P~O}N
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----A has received the proper packet, with ACK value: 0----
+A:    6414.1554,  Layer 5 to 4  Message = *jL.nP2r*6vX:z]>~aC%
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: 307057694
+Payload: *jL.nP2r*6vX:z]>~aC%????
+A is expecting ACK value of 1
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: *jL.nP2r*6vX:z]>~aC%----
+B:    6441.0606,  Layer 4 to 5  Message = *jL.nP2r*6vX:z]>~aC%
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:    7007.6957,  Layer 5 to 4  Message = +fpdWK>2&+k_RF3-~rfY
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: -1654160815
+Payload: +fpdWK>2&+k_RF3-~rfY????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: +fpdWK>2&+k_RF3-~rfY----
+B:    7023.5279,  Layer 4 to 5  Message = +fpdWK>2&+k_RF3-~rfY
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:    7837.0894,  Layer 5 to 4  Message = ,16;AFKPUZ,ejoty~&+0
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: 1700691285
+Payload: ,16;AFKPUZ,ejoty~&+0????
+A is expecting ACK value of 1
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: ,16;AFKPUZ,ejoty~&+0----
+B:    7862.0056,  Layer 4 to 5  Message = ,16;AFKPUZ,ejoty~&+0
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:    8491.6970,  Layer 5 to 4  Message = -DZq*AWn'=T-$:Qh~7Ne
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: -2027189706
+Payload: -DZq*AWn'=T-$:Qh~7Ne????
+A is expecting ACK value of 0
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: -DZq*AWn'=T-$:Qh~7Ne----
+B:    8514.4690,  Layer 4 to 5  Message = -DZq*AWn'=T-$:Qh~7Ne
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:    9404.1568,  Layer 5 to 4  Message = .V~Iq;d.V~Iq.d.V~Iq;
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: -793441011
+Payload: .V~Iq;d.V~Iq.d.V~Iq;????
+A is expecting ACK value of 1
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: .V~Iq;d.V~Iq.d.V~Iq;----
+B:    9417.9749,  Layer 4 to 5  Message = .V~Iq;d.V~Iq.d.V~Iq;
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:    9736.4611,  Layer 5 to 4  Message = xiE~Z6pL(b=wSxiE~Z6p
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: -763096152
+Payload: xiE~Z6pL(b=wSxiE~Z6p????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: xiE~Z6pL(b=wSxiE~Z6p----
+B:    9743.0479,  Layer 4 to 5  Message = xiE~Z6pL(b=wSxiE~Z6p
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----A has received the proper packet, with ACK value: 0----
+A:    9868.6451,  Layer 5 to 4  Message = d{iVD1|jWE2}2X03~lYG
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: -1424786034
+Payload: d{iVD1|jWE2}2X03~lYG????
+A is expecting ACK value of 1
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: d{iVD1|jWE2}2X03~lYG----
+B:    9883.5251,  Layer 4 to 5  Message = d{iVD1|jWE2}2X03~lYG
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   11063.9727,  Layer 5 to 4  Message = 10x.-,+*)('&%$#1~}|{
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: 1356882179
+Payload: 10x.-,+*)('&%$#1~}|{????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: 10x.-,+*)('&%$#1~}|{----
+B:   11071.8399,  Layer 4 to 5  Message = 10x.-,+*)('&%$#1~}|{
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----A has received the proper packet, with ACK value: 0----
+A:   11686.4797,  Layer 5 to 4  Message = 2CSdt'7HXiy,<M^n21BR
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: -1892801279
+Payload: 2CSdt'7HXiy,<M^n21BR????
+A is expecting ACK value of 1
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: 2CSdt'7HXiy,<M^n21BR----
+B:   11695.6224,  Layer 4 to 5  Message = 2CSdt'7HXiy,<M^n21BR
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----A has received the proper packet, with ACK value: 1----
+A:   13191.5856,  Layer 5 to 4  Message = 3Uw;^!Df*Ln2Tv:]~3e)
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: 1409649188
+Payload: 3Uw;^!Df*Ln2Tv:]~3e)????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: 3Uw;^!Df*Ln2Tv:]~3e)----
+B:   13211.2687,  Layer 4 to 5  Message = 3Uw;^!Df*Ln2Tv:]~3e)
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   13456.8162,  Layer 5 to 4  Message = 4f=qGzP&Yxc8lB3K~T4^
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: 1593839186
+Payload: 4f=qGzP&Yxc8lB3K~T4^????
+A is expecting ACK value of 1
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: 4f=qGzP&Yxc8lB3K~T4^----
+B:   13468.8376,  Layer 4 to 5  Message = 4f=qGzP&Yxc8lB3K~T4^
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   14623.6563,  Layer 5 to 4  Message = 5zbI0u]D+pW>&kR9~fM5
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: -1432011385
+Payload: 5zbI0u]D+pW>&kR9~fM5????
+A is expecting ACK value of 0
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: 5zbI0u]D+pW>&kR9~fM5----
+B:   14653.5124,  Layer 4 to 5  Message = 5zbI0u]D+pW>&kR9~fM5
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   15193.2286,  Layer 5 to 4  Message = 6x(~wpibZSLE=6x(~wpi
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: 484309713
+Payload: 6x(~wpibZSLE=6x(~wpi????
+A is expecting ACK value of 1
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: 6x(~wpibZSLE=6x(~wpi----
+B:   15218.3185,  Layer 4 to 5  Message = 6x(~wpibZSLE=6x(~wpi
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   16204.8206,  Layer 5 to 4  Message = d7LVaku!,6AK2`jt~+5?
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: 558954136
+Payload: d7LVaku!,6AK2`jt~+5?????
+A is expecting ACK value of 0
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: d7LVaku!,6AK2`jt~+5?----
+B:   16224.9439,  Layer 4 to 5  Message = d7LVaku!,6AK2`jt~+5?
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   17618.5598,  Layer 5 to 4  Message = 8T8.Jf$?[w5Qm+Gc~<Xt
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: 1110469141
+Payload: 8T8.Jf$?[w5Qm+Gc~<Xt????
+A is expecting ACK value of 1
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: 8T8.Jf$?[w5Qm+Gc~<Xt----
+B:   17648.0399,  Layer 4 to 5  Message = 8T8.Jf$?[w5Qm+Gc~<Xt
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   17777.8203,  Layer 5 to 4  Message = 9g693a0^-Z*W'T$Q~N{K
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: -2056631519
+Payload: 9g693a0^-Z*W'T$Q~N{K????
+A is expecting ACK value of 0
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: 9g693a0^-Z*W'T$Q~N{K----
+B:   17805.8195,  Layer 4 to 5  Message = 9g693a0^-Z*W'T$Q~N{K
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   18217.6004,  Layer 5 to 4  Message = :yZ;:[<{]=|^>}_?~`A!
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: 733109634
+Payload: :yZ;:[<{]=|^>}_?~`A!????
+A is expecting ACK value of 1
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: :yZ;:[<{]=|^>}_?~`A!----
+B:   18230.7462,  Layer 4 to 5  Message = :yZ;:[<{]=|^>}_?~`A!
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   19576.1965,  Layer 5 to 4  Message = ;.~qd;I;.~qdVI;.~qdV
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: 1825953011
+Payload: ;.~qd;I;.~qdVI;.~qdV????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: ;.~qd;I;.~qdVI;.~qdV----
+B:   19594.1272,  Layer 4 to 5  Message = ;.~qd;I;.~qdVI;.~qdV
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   20702.6389,  Layer 5 to 4  Message = <AEIMQ<Y^bfjnrvz~%)-
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: 121492180
+Payload: <AEIMQ<Y^bfjnrvz~%)-????
+A is expecting ACK value of 1
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: <AEIMQ<Y^bfjnrvz~%)-----
+B:   20709.8066,  Layer 4 to 5  Message = <AEIMQ<Y^bfjnrvz~%)-
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   22684.3427,  Layer 5 to 4  Message = =fi~6Lb=xEZp(=3i~6Lb
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: -1353280921
+Payload: =fi~6Lb=xEZp(=3i~6Lb????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: =fi~6Lb=xEZp(=3i~6Lb----
+B:   22700.7913,  Layer 4 to 5  Message = =fi~6Lb=xEZp(=3i~6Lb
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   22867.8852,  Layer 5 to 4  Message = dfxV}Gn7>(Ov2g0W~Ho8
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: 774347331
+Payload: dfxV}Gn7>(Ov2g0W~Ho8????
+A is expecting ACK value of 1
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: dfxV}Gn7>(Ov2g0W~Ho8----
+B:   22878.1814,  Layer 4 to 5  Message = dfxV}Gn7>(Ov2g0W~Ho8
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   24511.8291,  Layer 5 to 4  Message = ?xS.gBzU0?D|W2kF~Y4m
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: -1279158787
+Payload: ?xS.gBzU0?D|W2kF~Y4m????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: ?xS.gBzU0?D|W2kF~Y4m----
+B:   24531.6428,  Layer 4 to 5  Message = ?xS.gBzU0?D|W2kF~Y4m
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   24660.4915,  Layer 5 to 4  Message = A-wdP<)s`LA%o[H4~kWD
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: -1249962388
+Payload: A-wdP<)s`LA%o[H4~kWD????
+A is expecting ACK value of 1
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: A-wdP<)s`LA%o[H4~kWD----
+B:   24663.1922,  Layer 4 to 5  Message = A-wdP<)s`LA%o[H4~kWD
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   25073.3991,  Layer 5 to 4  Message = B?=;97531x-B)'%#~|zx
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: 751977425
+Payload: B?=;97531x-B)'%#~|zx????
+A is expecting ACK value of 0
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: B?=;97531x-B)'%#~|zx----
+B:   25102.8970,  Layer 4 to 5  Message = B?=;97531x-B)'%#~|zx
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   26387.5165,  Layer 5 to 4  Message = CRbq#2BQap!1CP`o~0?O
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: 1211731152
+Payload: CRbq#2BQap!1CP`o~0?O????
+A is expecting ACK value of 1
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: CRbq#2BQap!1CP`o~0?O----
+B:   26404.5622,  Layer 4 to 5  Message = CRbq#2BQap!1CP`o~0?O
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+Printing the contents of the Simulation Event Q
+Event Time = 26427.343 A: LAYER 3  Seq/Ack/Check = 1/1/513151330:  CRbq#2BQap!1CP`o~0?O
+Event Time = 28315.756 A: LAYER 5  
+
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+Printing the contents of the Simulation Event Q
+Event Time = 26427.516 A: Timer    
+Event Time = 26428.112 B: LAYER 3  Seq/Ack/Check = 1/0/1211731152:  CRbq#2BQap!1CP`o~0?O
+Event Time = 28315.756 A: LAYER 5  
+
+
+----A has received the proper packet, with ACK value: 1----
+
+Printing the contents of the Simulation Event Q
+Event Time = 28315.756 A: LAYER 5  
+
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+Printing the contents of the Simulation Event Q
+Event Time = 28315.756 A: LAYER 5  
+
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+
+Printing the contents of the Simulation Event Q
+
+A:   28315.7562,  Layer 5 to 4  Message = De(Ij-No2St7XD<^~Bc&
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: 230575416
+Payload: De(Ij-No2St7XD<^~Bc&????
+A is expecting ACK value of 0
+
+Printing the contents of the Simulation Event Q
+Event Time = 28340.029 B: LAYER 3  Seq/Ack/Check = 0/1/230575416:  De(Ij-No2St7XD<^~Bc&
+Event Time = 28678.356 A: LAYER 5  
+
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+Printing the contents of the Simulation Event Q
+Event Time = 28354.057 B: LAYER 3  Seq/Ack/Check = 0/1/230575416:  De(Ij-No2St7XD<^~Bc&
+Event Time = 28355.756 A: Timer    
+Event Time = 28678.356 A: LAYER 5  
+
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: De(Ij-No2St7XD<^~Bc&----
+B:   28340.0292,  Layer 4 to 5  Message = De(Ij-No2St7XD<^~Bc&
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   28678.3562,  Layer 5 to 4  Message = EwL~S(Zxb6i=pEEL~S(Z
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: -888574941
+Payload: EwL~S(Zxb6i=pEEL~S(Z????
+A is expecting ACK value of 1
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: EwL~S(Zxb6i=pEEL~S(Z----
+B:   28704.0371,  Layer 4 to 5  Message = EwL~S(Zxb6i=pEEL~S(Z
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   30220.2226,  Layer 5 to 4  Message = d,pV<#gM3w^D2nTF~eK1
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: -2045606375
+Payload: d,pV<#gM3w^D2nTF~eK1????
+A is expecting ACK value of 0
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: d,pV<#gM3w^D2nTF~eK1----
+B:   30244.3061,  Layer 4 to 5  Message = d,pV<#gM3w^D2nTF~eK1
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   30735.1861,  Layer 5 to 4  Message = Gf6.&{skcZRJB93)Gvnf
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: 1032681927
+Payload: Gf6.&{skcZRJB93)Gvnf????
+A is expecting ACK value of 1
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: Gf6.&{skcZRJB93)Gvnf----
+B:   30741.1135,  Layer 4 to 5  Message = Gf6.&{skcZRJB93)Gvnf
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   30939.1750,  Layer 5 to 4  Message = HQZdmv!+4=GPYclu~H3<
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: 866422582
+Payload: HQZdmv!+4=GPYclu~H3<????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: HQZdmv!+4=GPYclu~H3<----
+B:   30941.6804,  Layer 4 to 5  Message = HQZdmv!+4=GPYclu~H3<
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----A has received the proper packet, with ACK value: 0----
+A:   32700.8158,  Layer 5 to 4  Message = Id~;Vq.Id~;Vq.Id~;Iq
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: 207349323
+Payload: Id~;Vq.Id~;Vq.Id~;Iq????
+A is expecting ACK value of 1
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: Id~;Vq.Id~;Vq.Id~;Iq----
+B:   32719.1623,  Layer 4 to 5  Message = Id~;Vq.Id~;Vq.Id~;Iq
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   34533.0467,  Layer 5 to 4  Message = JvEq?l:g5b0]+W&R~MyJ
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: -1669934456
+Payload: JvEq?l:g5b0]+W&R~MyJ????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: JvEq?l:g5b0]+W&R~MyJ----
+B:   34543.2848,  Layer 4 to 5  Message = JvEq?l:g5b0]+W&R~MyJ
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   34739.6174,  Layer 5 to 4  Message = K+iI)gG'eE%cC#aA~_>|
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: 78132535
+Payload: K+iI)gG'eE%cC#aA~_>|????
+A is expecting ACK value of 1
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: K+iI)gG'eE%cC#aA~_>|----
+B:   34767.9485,  Layer 4 to 5  Message = K+iI)gG'eE%cC#aA~_>|
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   35657.3659,  Layer 5 to 4  Message = LLx~pbSE6(wiZL=x~pbS
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: 1741792818
+Payload: LLx~pbSE6(wiZL=x~pbS????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: LLx~pbSE6(wiZL=x~pbS----
+B:   35669.3676,  Layer 4 to 5  Message = LLx~pbSE6(wiZL=x~pbS
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   36258.6457,  Layer 5 to 4  Message = dPMVY]`cfilo2ux{~$'*
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: 395687619
+Payload: dPMVY]`cfilo2ux{~$'*????
+A is expecting ACK value of 1
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: dPMVY]`cfilo2ux{~$'*----
+B:   36281.2552,  Layer 4 to 5  Message = dPMVY]`cfilo2ux{~$'*
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   37492.0777,  Layer 5 to 4  Message = NcwNCWl#7Lau,AUj~5J_
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: 284311063
+Payload: NcwNCWl#7Lau,AUj~5J_????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: NcwNCWl#7Lau,AUj~5J_----
+B:   37504.5170,  Layer 4 to 5  Message = NcwNCWl#7Lau,AUj~5J_
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----A has received the proper packet, with ACK value: 0----
+A:   37516.9688,  Layer 5 to 4  Message = Ou=dORxAgxU{Dj2X~Gm5
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: 93611213
+Payload: Ou=dORxAgxU{Dj2X~Gm5????
+A is expecting ACK value of 1
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: Ou=dORxAgxU{Dj2X~Gm5----
+B:   37543.6878,  Layer 4 to 5  Message = Ou=dORxAgxU{Dj2X~Gm5
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   38495.7278,  Layer 5 to 4  Message = Pfb;sP'_8pJ$[53G~X2j
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: 229676280
+Payload: Pfb;sP'_8pJ$[53G~X2j????
+A is expecting ACK value of 0
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: Pfb;sP'_8pJ$[53G~X2j----
+B:   38518.4539,  Layer 4 to 5  Message = Pfb;sP'_8pJ$[53G~X2j
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   39405.7686,  Layer 5 to 4  Message = Q<(q]HQ|hS>*s_J5~jUA
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: -2074205728
+Payload: Q<(q]HQ|hS>*s_J5~jUA????
+A is expecting ACK value of 1
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: Q<(q]HQ|hS>*s_J5~jUA----
+B:   39407.9647,  Layer 4 to 5  Message = Q<(q]HQ|hS>*s_J5~jUA
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   40265.1450,  Layer 5 to 4  Message = ROLIFC?R9630-*'$~{xu
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: -615423553
+Payload: ROLIFC?R9630-*'$~{xu????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: ROLIFC?R9630-*'$~{xu----
+B:   40271.5460,  Layer 4 to 5  Message = ROLIFC?R9630-*'$~{xu
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   41759.8319,  Layer 5 to 4  Message = Sbp~x=LZSw(6ESbp~x=L
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: -527955943
+Payload: Sbp~x=LZSw(6ESbp~x=L????
+A is expecting ACK value of 1
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: Sbp~x=LZSw(6ESbp~x=L----
+B:   41783.8322,  Layer 4 to 5  Message = Sbp~x=LZSw(6ESbp~x=L
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   42889.6299,  Layer 5 to 4  Message = dt6Vv8Xx:Tz<2|>_~Aa#
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: 1476416296
+Payload: dt6Vv8Xx:Tz<2|>_~Aa#????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: dt6Vv8Xx:Tz<2|>_~Aa#----
+B:   42895.0924,  Layer 4 to 5  Message = dt6Vv8Xx:Tz<2|>_~Aa#
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   44631.3008,  Layer 5 to 4  Message = U)Z.`3e8j=UCtHyM~R&W
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: -1952761076
+Payload: U)Z.`3e8j=UCtHyM~R&W????
+A is expecting ACK value of 1
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: U)Z.`3e8j=UCtHyM~R&W----
+B:   44651.7505,  Layer 4 to 5  Message = U)Z.`3e8j=UCtHyM~R&W
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   45120.7344,  Layer 5 to 4  Message = V;~dI.qV;~dV.qV;~dI.
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: -1897869492
+Payload: V;~dI.qV;~dV.qV;~dI.????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: V;~dI.qV;~dV.qV;~dI.----
+B:   45127.2568,  Layer 4 to 5  Message = V;~dI.qV;~dV.qV;~dI.
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   46910.5008,  Layer 5 to 4  Message = WNE;2)}tkbXOW<3*~ulc
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: -1859670433
+Payload: WNE;2)}tkbXOW<3*~ulc????
+A is expecting ACK value of 1
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: WNE;2)}tkbXOW<3*~ulc----
+B:   46918.7755,  Layer 4 to 5  Message = WNE;2)}tkbXOW<3*~ulc
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----A has received the proper packet, with ACK value: 1----
+A:   48629.5514,  Layer 5 to 4  Message = Xaiqy$,4<EMU^Xnv~)19
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: 1146767285
+Payload: Xaiqy$,4<EMU^Xnv~)19????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: Xaiqy$,4<EMU^Xnv~)19----
+B:   48644.4186,  Layer 4 to 5  Message = Xaiqy$,4<EMU^Xnv~)19
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   49202.8006,  Layer 5 to 4  Message = YfxIc|8Rl(B[u1Ye~:Tn
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: -1798093826
+Payload: YfxIc|8Rl(B[u1Ye~:Tn????
+A is expecting ACK value of 1
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: YfxIc|8Rl(B[u1Ye~:Tn----
+B:   49223.9919,  Layer 4 to 5  Message = YfxIc|8Rl(B[u1Ye~:Tn
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   49366.1767,  Layer 5 to 4  Message = Z(S~LwEp=i6bxZ(Z~LwE
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: -1770363205
+Payload: Z(S~LwEp=i6bxZ(Z~LwE????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: Z(S~LwEp=i6bxZ(Z~LwE----
+B:   49381.7593,  Layer 4 to 5  Message = Z(S~LwEp=i6bxZ(Z~LwE
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   49637.8859,  Layer 5 to 4  Message = d:wV5rQ0mL+h2&cB[^<y
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: -749989530
+Payload: d:wV5rQ0mL+h2&cB[^<y????
+A is expecting ACK value of 1
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: d:wV5rQ0mL+h2&cB[^<y----
+B:   49645.9874,  Layer 4 to 5  Message = d:wV5rQ0mL+h2&cB[^<y
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   51518.9937,  Layer 5 to 4  Message = ]M=.|m^N>x}n_O?0~]`P
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: 895770582
+Payload: ]M=.|m^N>x}n_O?0~]`P????
+A is expecting ACK value of 0
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: ]M=.|m^N>x}n_O?0~]`P----
+B:   51543.2523,  Layer 4 to 5  Message = ]M=.|m^N>x}n_O?0~]`P
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   51710.6059,  Layer 5 to 4  Message = ^`bdfhjlnprtvxz|~#^'
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: -270195216
+Payload: ^`bdfhjlnprtvxz|~#^'????
+A is expecting ACK value of 1
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: ^`bdfhjlnprtvxz|~#^'----
+B:   51737.7000,  Layer 4 to 5  Message = ^`bdfhjlnprtvxz|~#^'
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   52022.2883,  Layer 5 to 4  Message = _r(;Ocv,?Sgz0DWk~4H_
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: 1135931291
+Payload: _r(;Ocv,?Sgz0DWk~4H_????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: _r(;Ocv,?Sgz0DWk~4H_----
+B:   52028.1767,  Layer 4 to 5  Message = _r(;Ocv,?Sgz0DWk~4H_
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----A has received the proper packet, with ACK value: 0----
+A:   53807.7144,  Layer 5 to 4  Message = `'Lq8^%Jo6[#Hm4Y~Fk2
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: -875176944
+Payload: `'Lq8^%Jo6[#Hm4Y~Fk2????
+A is expecting ACK value of 1
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: `'Lq8^%Jo6[#Hm4Y~Fk2----
+B:   53831.8212,  Layer 4 to 5  Message = `'Lq8^%Jo6[#Hm4Y~Fk2
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   53933.6145,  Layer 5 to 4  Message = aapI!X1hAwP)`8oH~W0g
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: -1721045499
+Payload: aapI!X1hAwP)`8oH~W0g????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: aapI!X1hAwP)`8oH~W0g----
+B:   53940.6171,  Layer 4 to 5  Message = aapI!X1hAwP)`8oH~W0g
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   54405.0211,  Layer 5 to 4  Message = bLb~iS=(pZExwbL6~iS=
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: 1757263332
+Payload: bLb~iS=(pZExwbL6~iS=????
+A is expecting ACK value of 1
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: bLb~iS=(pZExwbL6~iS=----
+B:   54434.0447,  Layer 4 to 5  Message = bLb~iS=(pZExwbL6~iS=
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   56174.7271,  Layer 5 to 4  Message = dfZcRNJFB=952-3%~zvr
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: -319339141
+Payload: dfZcRNJFB=952-3%~zvr????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: dfZcRNJFB=952-3%~zvr----
+B:   56189.6668,  Layer 4 to 5  Message = dfZcRNJFB=952-3%~zvr
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   57516.7984,  Layer 5 to 4  Message = dq~.dIVdq~.;IVdq~.;I
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: 1866991328
+Payload: dq~.dIVdq~.;IVdq~.;I????
+A is expecting ACK value of 1
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: dq~.dIVdq~.;IVdq~.;I----
+B:   57530.0451,  Layer 4 to 5  Message = dq~.dIVdq~.;IVdq~.;I
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   58734.1611,  Layer 5 to 4  Message = e&Ed%ec$Cb#Ba!A`~?_}
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: 2042471379
+Payload: e&Ed%ec$Cb#Ba!A`~?_}????
+A is expecting ACK value of 0
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: e&Ed%ec$Cb#Ba!A`~?_}----
+B:   58760.2401,  Layer 4 to 5  Message = e&Ed%ec$Cb#Ba!A`~?_}
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+Printing the contents of the Simulation Event Q
+Event Time = 58777.233 B: LAYER 3  Seq/Ack/Check = 0/1/2042471379:  e&Ed%ec$Cb#Ba!A`~?_}
+Event Time = 58784.469 A: LAYER 3  Seq/Ack/Check = 0/0/789724769:  e&Ed%ec$Cb#Ba!A`~?_}
+Event Time = 59580.398 A: LAYER 5  
+
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+Printing the contents of the Simulation Event Q
+Event Time = 58784.469 A: LAYER 3  Seq/Ack/Check = 0/0/789724769:  e&Ed%ec$Cb#Ba!A`~?_}
+Event Time = 58794.161 A: Timer    
+Event Time = 58802.612 B: LAYER 3  Seq/Ack/Check = 0/1/2042471379:  e&Ed%ec$Cb#Ba!A`~?_}
+Event Time = 59580.398 A: LAYER 5  
+
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+Printing the contents of the Simulation Event Q
+Event Time = 58794.161 A: Timer    
+Event Time = 58802.612 B: LAYER 3  Seq/Ack/Check = 0/1/2042471379:  e&Ed%ec$Cb#Ba!A`~?_}
+Event Time = 58814.523 A: LAYER 3  Seq/Ack/Check = 0/0/789724769:  e&Ed%ec$Cb#Ba!A`~?_}
+Event Time = 59580.398 A: LAYER 5  
+
+
+----A has received the proper packet, with ACK value: 0----
+
+Printing the contents of the Simulation Event Q
+Event Time = 58814.523 A: LAYER 3  Seq/Ack/Check = 0/0/789724769:  e&Ed%ec$Cb#Ba!A`~?_}
+Event Time = 59580.398 A: LAYER 5  
+
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+Printing the contents of the Simulation Event Q
+Event Time = 58820.015 A: LAYER 3  Seq/Ack/Check = 0/0/789724769:  e&Ed%ec$Cb#Ba!A`~?_}
+Event Time = 59580.398 A: LAYER 5  
+
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+
+Printing the contents of the Simulation Event Q
+Event Time = 59580.398 A: LAYER 5  
+
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+
+Printing the contents of the Simulation Event Q
+
+A:   59580.3982,  Layer 5 to 4  Message = f8i;l>fBrEuHxK{N~Q$T
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: -1947181803
+Payload: f8i;l>fBrEuHxK{N~Q$T????
+A is expecting ACK value of 1
+
+Printing the contents of the Simulation Event Q
+Event Time = 59600.398 A: Timer    
+Event Time = 60522.908 A: LAYER 5  
+
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: f8i;l>fBrEuHxK{N~Q$T----
+B:   59591.6265,  Layer 4 to 5  Message = f8i;l>fBrEuHxK{N~Q$T
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   60522.9077,  Layer 5 to 4  Message = gKxqU9{gD(jN2tX<~cG+
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: -36393518
+Payload: gKxqU9{gD(jN2tX<~cG+????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: gKxqU9{gD(jN2tX<~cG+----
+B:   60530.2259,  Layer 4 to 5  Message = gKxqU9{gD(jN2tX<~cG+
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   61221.9064,  Layer 5 to 4  Message = h^SI>4*}hi_TJ?5+~tj`
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: -970827603
+Payload: h^SI>4*}hi_TJ?5+~tj`????
+A is expecting ACK value of 1
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: h^SI>4*}hi_TJ?5+~tj`----
+B:   61238.6431,  Layer 4 to 5  Message = h^SI>4*}hi_TJ?5+~tj`
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   62297.9867,  Layer 5 to 4  Message = ipw~(x6=EiSZbipw~(x6
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: 1323901948
+Payload: ipw~(x6=EiSZbipw~(x6????
+A is expecting ACK value of 0
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: ipw~(x6=EiSZbipw~(x6----
+B:   62318.8839,  Layer 4 to 5  Message = ipw~(x6=EiSZbipw~(x6
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   62806.9789,  Layer 5 to 4  Message = d%=Vo*C[txja24Mf~9Rk
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: -1946668336
+Payload: d%=Vo*C[txja24Mf~9Rk????
+A is expecting ACK value of 1
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: d%=Vo*C[txja24Mf~9Rk----
+B:   62830.3051,  Layer 4 to 5  Message = d%=Vo*C[txja24Mf~9Rk
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   63523.0811,  Layer 5 to 4  Message = k7b.X%OyFp<k3^*T~KuB
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: 16947627
+Payload: k7b.X%OyFp<k3^*T~KuB????
+A is expecting ACK value of 0
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: k7b.X%OyFp<k3^*T~KuB----
+B:   63552.5877,  Layer 4 to 5  Message = k7b.X%OyFp<k3^*T~KuB
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   64594.1388,  Layer 5 to 4  Message = lf(dB}[9uS1ml)3C~]:v
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: -88210657
+Payload: lf(dB}[9uS1ml)3C~]:v????
+A is expecting ACK value of 1
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: lf(dB}[9uS1ml)3C~]:v----
+B:   64614.8906,  Layer 4 to 5  Message = lf(dB}[9uS1ml)3C~]:v
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   64931.9995,  Layer 5 to 4  Message = m]L;+xhWG6&scmB1~n^M
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: -1589298035
+Payload: m]L;+xhWG6&scmB1~n^M????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: m]L;+xhWG6&scmB1~n^M----
+B:   64951.0401,  Layer 4 to 5  Message = m]L;+xhWG6&scmB1~n^M
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   65268.9197,  Layer 5 to 4  Message = nopqrstuvwxyz{n}~!#$
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: 1052817090
+Payload: nopqrstuvwxyz{n}~!#$????
+A is expecting ACK value of 1
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: nopqrstuvwxyz{n}~!#$----
+B:   65285.4456,  Layer 4 to 5  Message = nopqrstuvwxyz{n}~!#$
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   66277.1945,  Layer 5 to 4  Message = o$6I[n#5HZm!4GYo~3FX
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: -1503262258
+Payload: o$6I[n#5HZm!4GYo~3FX????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: o$6I[n#5HZm!4GYo~3FX----
+B:   66295.2337,  Layer 4 to 5  Message = o$6I[n#5HZm!4GYo~3FX
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   67200.1839,  Layer 5 to 4  Message = p6Z~EixSw=b(Lp6ZpEix
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: 2069154696
+Payload: p6Z~EixSw=b(Lp6ZpEix????
+A is expecting ACK value of 1
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: p6Z~EixSw=b(Lp6ZpEix----
+B:   67218.4238,  Layer 4 to 5  Message = p6Z~EixSw=b(Lp6ZpEix
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   67916.2725,  Layer 5 to 4  Message = dI~V.d;qI~V.2;qI~q.d
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: -143943831
+Payload: dI~V.d;qI~V.2;qI~q.d????
+A is expecting ACK value of 0
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: dI~V.d;qI~V.2;qI~q.d----
+B:   67944.1274,  Layer 4 to 5  Message = dI~V.d;qI~V.2;qI~q.d
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   69043.3686,  Layer 5 to 4  Message = r[E.u_H1xbK4{eN7~hr:
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: -580674829
+Payload: r[E.u_H1xbK4{eN7~hr:????
+A is expecting ACK value of 1
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: r[E.u_H1xbK4{eN7~hr:----
+B:   69051.4896,  Layer 4 to 5  Message = r[E.u_H1xbK4{eN7~hr:
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   69792.0499,  Layer 5 to 4  Message = snid_YTOJE?:50+&~yts
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: 263704795
+Payload: snid_YTOJE?:50+&~yts????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: snid_YTOJE?:50+&~yts----
+B:   69806.9893,  Layer 4 to 5  Message = snid_YTOJE?:50+&~yts
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   69900.5030,  Layer 5 to 4  Message = t#x;HTamy(4AMYfr~-9F
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: -123576330
+Payload: t#x;HTamy(4AMYfr~-9F????
+A is expecting ACK value of 1
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: t#x;HTamy(4AMYfr~-9F----
+B:   69921.2763,  Layer 4 to 5  Message = t#x;HTamy(4AMYfr~-9F
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   70562.3906,  Layer 5 to 4  Message = uuSq1Om-Ki)Ge%3a~>]z
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: -2106634819
+Payload: uuSq1Om-Ki)Ge%3a~>]z????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: uuSq1Om-Ki)Ge%3a~>]z----
+B:   70575.2597,  Layer 4 to 5  Message = uuSq1Om-Ki)Ge%3a~>]z
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----A has received the proper packet, with ACK value: 0----
+A:   72328.9862,  Layer 5 to 4  Message = vHvIxJyKzL{M|N}O~P!Q
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: 1580853979
+Payload: vHvIxJyKzL{M|N}O~P!Q????
+A is expecting ACK value of 1
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: vHvIxJyKzL{M|N}O~P!Q----
+B:   72337.4931,  Layer 4 to 5  Message = vHvIxJyKzL{M|N}O~P!Q
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----A has received the proper packet, with ACK value: 1----
+A:   73900.3960,  Layer 5 to 4  Message = wZ=wbE(iLxpS6wZ=~bE(
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: 91500028
+Payload: wZ=wbE(iLxpS6wZ=~bE(????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: wZ=wbE(iLxpS6wZ=~bE(----
+B:   73914.9740,  Layer 4 to 5  Message = wZ=wbE(iLxpS6wZ=~bE(
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   74829.5630,  Layer 5 to 4  Message = dmbVx?4){peY2C7,~sh]
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: 1214053620
+Payload: dmbVx?4){peY2C7,~sh]????
+A is expecting ACK value of 1
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: dmbVx?4){peY2C7,~sh]----
+B:   74845.1470,  Layer 4 to 5  Message = dmbVx?4){peY2C7,~sh]
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   76793.2033,  Layer 5 to 4  Message = y!(.4yAGMSY`flrx~'-3
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: -2131982554
+Payload: y!(.4yAGMSY`flrx~'-3????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: y!(.4yAGMSY`flrx~'-3----
+B:   76812.7021,  Layer 4 to 5  Message = y!(.4yAGMSY`flrx~'-3
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   77177.4028,  Layer 5 to 4  Message = z4Ld{5ze|6Nf}7Og~8Ph
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: -1510647980
+Payload: z4Ld{5ze|6Nf}7Og~8Ph????
+A is expecting ACK value of 1
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: z4Ld{5ze|6Nf}7Og~8Ph----
+B:   77191.1602,  Layer 4 to 5  Message = z4Ld{5ze|6Nf}7Og~8Ph
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----A has received the proper packet, with ACK value: 1----
+A:   77283.3973,  Layer 5 to 4  Message = {Gp;e0Y{NwCl7a,U~Js>
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: 356526813
+Payload: {Gp;e0Y{NwCl7a,U~Js>????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: {Gp;e0Y{NwCl7a,U~Js>----
+B:   77291.6294,  Layer 4 to 5  Message = {Gp;e0Y{NwCl7a,U~Js>
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----A has received the proper packet, with ACK value: 0----
+A:   79261.2123,  Layer 5 to 4  Message = |Y6qN+fC|Z7rO,gD~[8s
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: -887176321
+Payload: |Y6qN+fC|Z7rO,gD~[8s????
+A is expecting ACK value of 1
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: |Y6qN+fC|Z7rO,gD~[8s----
+B:   79281.8440,  Layer 4 to 5  Message = |Y6qN+fC|Z7rO,gD~[8s
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   80646.7097,  Layer 5 to 4  Message = }lZI7&raO},xgUD2~m[J
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: -1238175984
+Payload: }lZI7&raO},xgUD2~m[J????
+A is expecting ACK value of 0
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: }lZI7&raO},xgUD2~m[J----
+B:   80670.2837,  Layer 4 to 5  Message = }lZI7&raO},xgUD2~m[J
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   81586.2256,  Layer 5 to 4  Message = ~fDUgx,=Oa~&7I3l}1CT
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: 1911781478
+Payload: ~fDUgx,=Oa~&7I3l}1CT????
+A is expecting ACK value of 1
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: ~fDUgx,=Oa~&7I3l}1CT----
+B:   81614.5408,  Layer 4 to 5  Message = ~fDUgx,=Oa~&7I3l}1CT
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   83530.0976,  Layer 5 to 4  Message = !3EVhy->Pbs'2J[m~2DU
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: 2040005153
+Payload: !3EVhy->Pbs'2J[m~2DU????
+A is expecting ACK value of 0
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: !3EVhy->Pbs'2J[m~2DU----
+B:   83554.4593,  Layer 4 to 5  Message = !3EVhy->Pbs'2J[m~2DU
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   84778.5063,  Layer 5 to 4  Message = ##i.Qt9]!Eh-Ps8[~Dg,
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: -1986825766
+Payload: ##i.Qt9]!Eh-Ps8[~Dg,????
+A is expecting ACK value of 1
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: ##i.Qt9]!Eh-Ps8[~Dg,----
+B:   84782.5227,  Layer 4 to 5  Message = ##i.Qt9]!Eh-Ps8[~Dg,
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   84988.0337,  Layer 5 to 4  Message = $X$d:oFzQ(]3h>sJ~U,a
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: -643832352
+Payload: $X$d:oFzQ(]3h>sJ~U,a????
+A is expecting ACK value of 0
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: $X$d:oFzQ(]3h>sJ~U,a----
+B:   85015.7450,  Layer 4 to 5  Message = $X$d:oFzQ(]3h>sJ~U,a
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   86193.7804,  Layer 5 to 4  Message = %kS%$jR:#iQ9!hP8~gO7
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: 1504727601
+Payload: %kS%$jR:#iQ9!hP8~gO7????
+A is expecting ACK value of 1
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: %kS%$jR:#iQ9!hP8~gO7----
+B:   86206.6791,  Layer 4 to 5  Message = %kS%$jR:#iQ9!hP8~gO7
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----A has received the proper packet, with ACK value: 1----
+A:   87913.0880,  Layer 5 to 4  Message = &}wq&e_XRLF?93-'~xrl
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: 623851463
+Payload: &}wq&e_XRLF?93-'~xrl????
+A is expecting ACK value of 0
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: &}wq&e_XRLF?93-'~xrl----
+B:   87942.4115,  Layer 4 to 5  Message = &}wq&e_XRLF?93-'~xrl
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   89566.4909,  Layer 5 to 4  Message = '2=IT'kv$x:FQ]hs~,7C
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: 1070835157
+Payload: '2=IT'kv$x:FQ]hs~,7C????
+A is expecting ACK value of 1
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: '2=IT'kv$x:FQ]hs~,7C----
+B:   89570.5667,  Layer 4 to 5  Message = '2=IT'kv$x:FQ]hs~,7C
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----A has received the proper packet, with ACK value: 1----
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+A:   91116.6856,  Layer 5 to 4  Message = (Eb~=Z(6SpxLi(Eb~=Zw
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: -1665817947
+Payload: (Eb~=Z(6SpxLi(Eb~=Zw????
+A is expecting ACK value of 0
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: (Eb~=Z(6SpxLi(Eb~=Zw----
+B:   91126.9786,  Layer 4 to 5  Message = (Eb~=Z(6SpxLi(Eb~=Zw
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   92376.6790,  Layer 5 to 4  Message = dW(V'U&)%S$R2Q!P~O}N
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: -1969247541
+Payload: dW(V'U&)%S$R2Q!P~O}N????
+A is expecting ACK value of 1
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 1----
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: dW(V'U&)%S$R2Q!P~O}N----
+B:   92403.9329,  Layer 4 to 5  Message = dW(V'U&)%S$R2Q!P~O}N
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+Printing the contents of the Simulation Event Q
+Event Time = 92413.016 B: LAYER 3  Seq/Ack/Check = 1/0/-1969247541:  dW(V'U&)%S$R2Q!P~O}N
+Event Time = 92416.679 A: Timer    
+Event Time = 94048.806 A: LAYER 5  
+
+
+----A has received the proper packet, with ACK value: 1----
+
+Printing the contents of the Simulation Event Q
+Event Time = 94048.806 A: LAYER 5  
+
+
+----B did not accept the packet which had sequence number: 1----
+----B is resending packet with ACK value: 1----
+
+Printing the contents of the Simulation Event Q
+Event Time = 94048.806 A: LAYER 5  
+
+
+----A got incorrect packet.----
+A was expecting ACK value 0 but packet acknum is 1
+
+Printing the contents of the Simulation Event Q
+
+A:   94048.8056,  Layer 5 to 4  Message = *fL.nP2r*6vX:z3>~aC%
+
+----A is currently sending packet.----
+Sequence number: 0
+Checksum: 106302432
+Payload: *fL.nP2r*6vX:z3>~aC%????
+A is expecting ACK value of 0
+
+Printing the contents of the Simulation Event Q
+Event Time = 94068.806 A: Timer    
+Event Time = 95743.811 A: LAYER 5  
+
+
+----B received packet with sequence number: 0----
+----Payload of received packet is: *fL.nP2r*6vX:z3>~aC%----
+B:   94065.0215,  Layer 4 to 5  Message = *fL.nP2r*6vX:z3>~aC%
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 0----
+
+----Timer interrupt has occured.----
+----A will resend packet with sequence number: 0----
+
+----A has received the proper packet, with ACK value: 0----
+
+----B did not accept the packet which had sequence number: 0----
+----B is resending packet with ACK value: 0----
+
+----A got incorrect packet.----
+A was expecting ACK value 1 but packet acknum is 0
+A:   95743.8106,  Layer 5 to 4  Message = +|pdWK>2&+k_RF9-~rfY
+
+----A is currently sending packet.----
+Sequence number: 1
+Checksum: -1057307038
+Payload: +|pdWK>2&+k_RF9-~rfY????
+A is expecting ACK value of 1
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: +|pdWK>2&+k_RF9-~rfY----
+B:   95761.6837,  Layer 4 to 5  Message = +|pdWK>2&+k_RF9-~rfY
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----B is sending packet which has ACK value: 1----
+
+
+Simulator terminated at time 95763.810616
+ after receiving 100 msgs at layer5
+Simulator Analysis:
+  Number of messages sent from 5 to 4: 101
+  Number of messages received at Layer 5, side A: 0
+  Number of messages received at Layer 5, side B: 100
+  Number of messages incorrectly received at layer 5: 96
+  Number of packets entering the network: 434
+  Average number of packets already in network:     0.260
+  Number of packets that the network lost: 0
+  Number of packets that the network corrupted: 0
+  Number of packets that the network put out of order: 0
+  

@@ -1,0 +1,1352 @@
+-bash-3.2$ ./p2_gbn 
+-----  Network Simulator Version    2.3 -------- 
+
+Enter the number of messages to simulate: 25
+Packet loss probability [enter number between 0.0 and 1.0]: 0.2
+Packet corruption probability [0.0 for no corruption]: 0.2
+Packet out-of-order probability [0.0 for no out-of-order]: 0
+Average time between messages from sender's layer5 [ > 0.0]: 10
+Enter Level of tracing desired: 2
+Do you want actions randomized: (1 = yes, 0 = no)? 1
+Do you want Bidirectional: (1 = yes, 0 = no)? 0
+Input parameters:
+Number of Messages = 25  Lost Packet Prob. =   0.200
+Corrupt Packet Prob. =   0.200  Out Of Order Prob. =   0.000
+Ave. time between messages =    10.00  Trace level = 2
+Randomize = 1  Bi-directional = 0
+
+A:       7.3924,  Layer 5 to 4  Message = !fEVhy->Pbs'2J3m~2DU
+----B did not accept packet which had sequence number: 12801----
+A:      11.4367,  Layer 5 to 4  Message = ##i.Qt9]!Eh-Ps8[~Dg,
+A:      18.4264,  Layer 5 to 4  Message = $X$d:oFzQ(]3h>sJ~U,a
+A:      22.8132,  Layer 5 to 4  Message = %kS%$jR:#iQ9!hP8~gO7
+
+----Timer interrupt has occured.----
+----A will resend packets----
+A:      38.4277,  Layer 5 to 4  Message = &}wq&e_XRLF?93-'~xrl
+A:      38.6859,  Layer 5 to 4  Message = '2=IT'kv$x:FQ]hs~,7C
+
+----B received packet with sequence number: 2----
+----Payload of received packet is: ##i.Qt9]!Eh-Ps8[~Dg,----
+B:      41.1455,  Layer 4 to 5  Message = ##i.Qt9]!Eh-Ps8[~Dg,
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----ACK packet sent----
+A:      45.6640,  Layer 5 to 4  Message = (Eb~=Z(6SpxLi(Eb~=Zw
+
+----Timer interrupt has occured.----
+----A will resend packets----
+
+----B received packet with sequence number: 3----
+----Payload of received packet is: $X$d:oFzQ(]3h>sJ~U,a----
+B:      51.9228,  Layer 4 to 5  Message = $X$d:oFzQ(]3h>sJ~U,a
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----ACK packet sent----
+
+----A has received the proper packet, with ACK value: 2----
+----B did not accept packet which had sequence number: 4----
+A:      65.0160,  Layer 5 to 4  Message = dW(V'U&)%S$R2Q!P~O}N
+
+----Timer interrupt has occured.----
+----A will resend packets----
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: !fEVhy->Pbs'2J3m~2DU----
+B:      76.4607,  Layer 4 to 5  Message = !fEVhy->Pbs'2J3m~2DU
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----ACK packet sent----
+
+----A got corrupt packet.----
+A:      84.0627,  Layer 5 to 4  Message = *jL.nP2r*6vX:z]>~aC%
+A:      86.9904,  Layer 5 to 4  Message = +fpdWK>2&+k_RF3-~rfY
+
+----Timer interrupt has occured.----
+----A will resend packets----
+A:      87.6826,  Layer 5 to 4  Message = ,16;AFKPUZ,ejoty~&+0
+
+----B received packet with sequence number: 3----
+----Payload of received packet is: $X$d:oFzQ(]3h>sJ~U,a----
+B:      95.9438,  Layer 4 to 5  Message = $X$d:oFzQ(]3h>sJ~U,a
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----ACK packet sent----
+
+----A has received the proper packet, with ACK value: 3----
+
+----A has received the proper packet, with ACK value: 1----
+A:     103.1613,  Layer 5 to 4  Message = -DZq*AWn'=T-$:Qh~7Ne
+
+----A has received the proper packet, with ACK value: 3----
+
+----Timer interrupt has occured.----
+----A will resend packets----
+A:     114.5116,  Layer 5 to 4  Message = .V~Iq;d.V~Iq.d.V~Iq;
+
+----B received packet with sequence number: 4----
+----Payload of received packet is: %kS%$jR:#iQ9!hP8~gO7----
+B:     115.1977,  Layer 4 to 5  Message = %kS%$jR:#iQ9!hP8~gO7
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----ACK packet sent----
+
+----A has received the proper packet, with ACK value: 4----
+A:     122.9863,  Layer 5 to 4  Message = xiE~Z6pL(b=wSxiE~Z6p
+
+----Timer interrupt has occured.----
+----A will resend packets----
+A:     129.2522,  Layer 5 to 4  Message = d{iVD1|jWE2}2X03~lYG
+----B did not accept packet which had sequence number: 5----
+A:     139.6642,  Layer 5 to 4  Message = 10x.-,+*)('&%$#1~}|{
+
+----Timer interrupt has occured.----
+----A will resend packets----
+
+----A has received the proper packet, with ACK value: 4----
+
+----B received packet with sequence number: 7----
+----Payload of received packet is: (Eb~=Z(6SpxLi(Eb~=Zw----
+B:     150.2149,  Layer 4 to 5  Message = (Eb~=Z(6SpxLi(Eb~=Zw
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----ACK packet sent----
+
+----A has received the proper packet, with ACK value: 7----
+A:     159.0600,  Layer 5 to 4  Message = 2CSdt'7HXiy,<M^n21BR
+
+----Timer interrupt has occured.----
+----A will resend packets----
+A:     171.5391,  Layer 5 to 4  Message = 3Uw;^!Df*Ln2Tv:]~3e)
+A:     175.5266,  Layer 5 to 4  Message = 4f=qGzP&Yxc8lB3K~T4^
+
+----B received packet with sequence number: 1----
+----Payload of received packet is: !fEVhy->Pbs'2J3m~2DU----
+B:     178.5915,  Layer 4 to 5  Message = !fEVhy->Pbs'2J3m~2DU
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----ACK packet sent----
+
+Printing the contents of the Simulation Event Q
+Event Time =  186.339 A: LAYER 5  
+Event Time =  187.392 A: Timer    
+Event Time =  202.542 A: LAYER 3  Seq/Ack/Check = 1/1/365137234:  !fEVhy->Pbs'2J3m~2DU
+Event Time =  205.762 B: LAYER 3  Seq/Ack/Check = 3/3/2001952617:  $X$d:oFzQ(]3h>sJ~U,a
+Event Time =  215.120 B: LAYER 3  Seq/Ack/Check = 6/6/-895121073:  '2=IT'kv$x:FQ]hs~,7C
+Event Time =  226.243 B: LAYER 3  Seq/Ack/Check = 7/7/1774423615:  (Eb~=Z(6SpxLi(Eb~=Zw
+Event Time =  242.068 B: LAYER 3  Seq/Ack/Check = 8/8/1016854966:  dW(V'U&)%S$R2Q!P~O}N
+Event Time =  271.222 B: LAYER 3  Seq/Ack/Check = 3/3/2001952617:  $X$d:oFzQ(]3h>sJ~U,a
+Event Time =  285.209 B: LAYER 3  Seq/Ack/Check = 4/4/58440569:  %kS%$jR:#iQ9!hP8~gO7
+Event Time =  302.312 B: LAYER 3  Seq/Ack/Check = 5/5/2145705615:  &}wq&e_XRLF?93-'~xrl
+Event Time =  312.092 B: LAYER 3  Seq/Ack/Check = 8/8/1016854966:  dW(V'U&)%S$R2Q!P~O}N
+Event Time =  339.998 B: LAYER 3  Seq/Ack/Check = 9/9/-208149110:  *jL.nP2r*6vX:z]>~aC%
+Event Time =  341.680 B: LAYER 3  Seq/Ack/Check = 10/10/755037719:  +fpdWK>2&+k_RF3?~rfY
+Event Time =  347.913 B: LAYER 3  Seq/Ack/Check = 3/3/2001952617:  $X$d:oFzQ(]3h>sJ~U,a
+Event Time =  350.476 B: LAYER 3  Seq/Ack/Check = 4/4/58440569:  %kS%$jR:#iQ9!hP8~gO7
+Event Time =  377.369 B: LAYER 3  Seq/Ack/Check = 5/5/2145705615:  &}wq&e_XRLF?93-'~xrl
+Event Time =  397.964 B: LAYER 3  Seq/Ack/Check = 8/8/1016854966:  dW(V'U&)%S$R2Q!P~O}N
+Event Time =  415.653 B: LAYER 3  Seq/Ack/Check = 10/10/-754911721:  +fpdWK>2&+k_RF3-~rfY
+Event Time =  438.337 B: LAYER 3  Seq/Ack/Check = 11/11/725158163:  ,16;AFKPUZ,ejoty~&+0
+Event Time =  455.532 B: LAYER 3  Seq/Ack/Check = 6/6/-895121073:  '2=IT'kv$x:FQ]hs~,7C
+Event Time =  471.666 B: LAYER 3  Seq/Ack/Check = 7/7/1774423615:  (Eb~=Z(6SpxLi(Eb~=Zw
+Event Time =  495.091 B: LAYER 3  Seq/Ack/Check = 8/8/1016854966:  dW(V'U&)%S$R2Q!P~O}N
+Event Time =  501.839 B: LAYER 3  Seq/Ack/Check = 9/9/-208149110:  *jL.nP2r*6vX:z]>~aC%
+Event Time =  512.623 B: LAYER 3  Seq/Ack/Check = 10/10/-754911721:  +fpdWK>2&+k_RF3-~rfY
+Event Time =  529.609 B: LAYER 3  Seq/Ack/Check = 11/11/725158163:  ,o6;AFKPUZ,ej1ty~&+0
+Event Time =  544.330 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time =  550.643 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  570.611 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  573.479 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  602.065 B: LAYER 3  Seq/Ack/Check = 8/8/1016854966:  dW(V'U&)%S$R2Q!P~O}N
+Event Time =  609.605 B: LAYER 3  Seq/Ack/Check = 9/9/-208149110:  *jL.nP2r*6vX:z]>~aC%
+Event Time =  617.341 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time =  619.073 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.V~Iq.d.V~Iq;
+Event Time =  636.499 B: LAYER 3  Seq/Ack/Check = 14/14/-950406659:  xiE~Z6pL(b=wSxiE~Z6p
+Event Time =  652.816 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  681.264 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  683.016 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  696.305 B: LAYER 3  Seq/Ack/Check = 7/7/1774423615:  (Eb~=Z(6SpxLi(Eb~=Zw
+Event Time =  705.955 B: LAYER 3  Seq/Ack/Check = 8/-1241513976/1016854784:  bW(V'U&)%S$R3Q!P~O}N
+Event Time =  715.276 B: LAYER 3  Seq/Ack/Check = 9/9/-208149110:  *jL.nP2r*6vX:z]>~aC%
+Event Time =  735.495 B: LAYER 3  Seq/Ack/Check = 10/10/-754911721:  +fpdWK>2&+k_RF3-~rfY
+Event Time =  751.193 B: LAYER 3  Seq/Ack/Check = 11/11/725158163:  ,16;AFKPUZ,ejoty~&+0
+Event Time =  759.448 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time =  765.482 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.;~Iq.d.V~IqV
+Event Time =  771.049 B: LAYER 3  Seq/Ack/Check = 14/14/-950406659:  xiE~Z6pL(b=wSxiE~Z6p
+Event Time =  796.676 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  822.917 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  833.247 B: LAYER 3  Seq/Ack/Check = 167772160/10/-754911721:  +fpdWK>2&+k_RF3-~rfY
+Event Time =  861.310 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time =  871.633 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.V~Iq.d.V~Iq;
+Event Time =  894.017 B: LAYER 3  Seq/Ack/Check = 15/15/-1093754917:  d{iVD1|jWE2}2X03~lYG
+Event Time =  902.909 B: LAYER 3  Seq/Ack/Check = 16/16/1818540362:  10x.-,+*)('&%$#1~}|{
+Event Time =  930.646 B: LAYER 3  Seq/Ack/Check = 17/17/-1280639672:  2CSdt'7HXiy,<M^n21BR
+Event Time =  944.169 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  958.292 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  977.133 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+
+
+----B received packet with sequence number: 2----
+----Payload of received packet is: ##i.Qt9]!Eh-Ps8[~Dg,----
+B:     183.7830,  Layer 4 to 5  Message = ##i.Qt9]!Eh-Ps8[~Dg,
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----ACK packet sent----
+A:     186.3387,  Layer 5 to 4  Message = 5zbI0u]D+pW>&kR9~fM5
+
+----Timer interrupt has occured.----
+----A will resend packets----
+A:     200.6501,  Layer 5 to 4  Message = 6x(~wpibZSLE=6x(~wpi
+
+----A has received the proper packet, with ACK value: 1----
+
+----B received packet with sequence number: 3----
+----Payload of received packet is: $X$d:oFzQ(]3h>sJ~U,a----
+B:     205.7616,  Layer 4 to 5  Message = $X$d:oFzQ(]3h>sJ~U,a
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----ACK packet sent----
+
+----Timer interrupt has occured.----
+----A will resend packets----
+
+----B received packet with sequence number: 6----
+----Payload of received packet is: '2=IT'kv$x:FQ]hs~,7C----
+B:     215.1198,  Layer 4 to 5  Message = '2=IT'kv$x:FQ]hs~,7C
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----ACK packet sent----
+A:     219.0924,  Layer 5 to 4  Message = d7LVaku!,6AK2`jt~+5?
+
+----B received packet with sequence number: 7----
+----Payload of received packet is: (Eb~=Z(6SpxLi(Eb~=Zw----
+B:     226.2431,  Layer 4 to 5  Message = (Eb~=Z(6SpxLi(Eb~=Zw
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----ACK packet sent----
+
+----Timer interrupt has occured.----
+----A will resend packets----
+
+----A has received the proper packet, with ACK value: 2----
+A:     236.2542,  Layer 5 to 4  Message = 8T8.Jf$?[w5Qm+Gc~<Xt
+A:     240.2979,  Layer 5 to 4  Message = 9g693a0^-Z*W'T$Q~N{K
+
+----B received packet with sequence number: 8----
+----Payload of received packet is: dW(V'U&)%S$R2Q!P~O}N----
+B:     242.0684,  Layer 4 to 5  Message = dW(V'U&)%S$R2Q!P~O}N
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----ACK packet sent----
+
+----Timer interrupt has occured.----
+----A will resend packets----
+A:     254.9223,  Layer 5 to 4  Message = :yZ;:[<{]=|^>}_?~`A!
+
+----A has received the proper packet, with ACK value: 3----
+A:     259.1492,  Layer 5 to 4  Message = ;.~qd;I;.~qdVI;.~qdV
+
+----Timer interrupt has occured.----
+----A will resend packets----
+A:     270.3387,  Layer 5 to 4  Message = <AEIMQ<Y^bfjnrvz~%)-
+
+----B received packet with sequence number: 3----
+----Payload of received packet is: $X$d:oFzQ(]3h>sJ~U,a----
+B:     271.2223,  Layer 4 to 5  Message = $X$d:oFzQ(]3h>sJ~U,a
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----ACK packet sent----
+A:     274.1385,  Layer 5 to 4  Message = =fi~6Lb=xEZp(=3i~6Lb
+
+----A has received the proper packet, with ACK value: 6----
+
+----B received packet with sequence number: 4----
+----Payload of received packet is: %kS%$jR:#iQ9!hP8~gO7----
+B:     285.2091,  Layer 4 to 5  Message = %kS%$jR:#iQ9!hP8~gO7
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----ACK packet sent----
+
+----Timer interrupt has occured.----
+----A will resend packets----
+A:     287.6743,  Layer 5 to 4  Message = dfxV}Gn7>(Ov2g0W~Ho8
+
+----A has received the proper packet, with ACK value: 3----
+A:     293.5329,  Layer 5 to 4  Message = ?xS.gBzU0?D|W2kF~Y4m
+
+----B received packet with sequence number: 5----
+----Payload of received packet is: &}wq&e_XRLF?93-'~xrl----
+B:     302.3120,  Layer 4 to 5  Message = &}wq&e_XRLF?93-'~xrl
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----ACK packet sent----
+
+Printing the contents of the Simulation Event Q
+Event Time =  312.092 B: LAYER 3  Seq/Ack/Check = 8/8/1016854966:  dW(V'U&)%S$R2Q!P~O}N
+Event Time =  339.998 B: LAYER 3  Seq/Ack/Check = 9/9/-208149110:  *jL.nP2r*6vX:z]>~aC%
+Event Time =  341.680 B: LAYER 3  Seq/Ack/Check = 10/10/755037719:  +fpdWK>2&+k_RF3?~rfY
+Event Time =  347.913 B: LAYER 3  Seq/Ack/Check = 3/3/2001952617:  $X$d:oFzQ(]3h>sJ~U,a
+Event Time =  350.476 B: LAYER 3  Seq/Ack/Check = 4/4/58440569:  %kS%$jR:#iQ9!hP8~gO7
+Event Time =  377.369 B: LAYER 3  Seq/Ack/Check = 5/5/2145705615:  &}wq&e_XRLF?93-'~xrl
+Event Time =  397.964 B: LAYER 3  Seq/Ack/Check = 8/8/1016854966:  dW(V'U&)%S$R2Q!P~O}N
+Event Time =  415.653 B: LAYER 3  Seq/Ack/Check = 10/10/-754911721:  +fpdWK>2&+k_RF3-~rfY
+Event Time =  438.337 B: LAYER 3  Seq/Ack/Check = 11/11/725158163:  ,16;AFKPUZ,ejoty~&+0
+Event Time =  455.532 B: LAYER 3  Seq/Ack/Check = 6/6/-895121073:  '2=IT'kv$x:FQ]hs~,7C
+Event Time =  471.666 B: LAYER 3  Seq/Ack/Check = 7/7/1774423615:  (Eb~=Z(6SpxLi(Eb~=Zw
+Event Time =  495.091 B: LAYER 3  Seq/Ack/Check = 8/8/1016854966:  dW(V'U&)%S$R2Q!P~O}N
+Event Time =  501.839 B: LAYER 3  Seq/Ack/Check = 9/9/-208149110:  *jL.nP2r*6vX:z]>~aC%
+Event Time =  512.623 B: LAYER 3  Seq/Ack/Check = 10/10/-754911721:  +fpdWK>2&+k_RF3-~rfY
+Event Time =  529.609 B: LAYER 3  Seq/Ack/Check = 11/11/725158163:  ,o6;AFKPUZ,ej1ty~&+0
+Event Time =  544.330 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time =  550.643 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  570.611 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  573.479 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  602.065 B: LAYER 3  Seq/Ack/Check = 8/8/1016854966:  dW(V'U&)%S$R2Q!P~O}N
+Event Time =  609.605 B: LAYER 3  Seq/Ack/Check = 9/9/-208149110:  *jL.nP2r*6vX:z]>~aC%
+Event Time =  617.341 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time =  619.073 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.V~Iq.d.V~Iq;
+Event Time =  636.499 B: LAYER 3  Seq/Ack/Check = 14/14/-950406659:  xiE~Z6pL(b=wSxiE~Z6p
+Event Time =  652.816 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  681.264 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  683.016 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  696.305 B: LAYER 3  Seq/Ack/Check = 7/7/1774423615:  (Eb~=Z(6SpxLi(Eb~=Zw
+Event Time =  705.955 B: LAYER 3  Seq/Ack/Check = 8/-1241513976/1016854784:  bW(V'U&)%S$R3Q!P~O}N
+Event Time =  715.276 B: LAYER 3  Seq/Ack/Check = 9/9/-208149110:  *jL.nP2r*6vX:z]>~aC%
+Event Time =  735.495 B: LAYER 3  Seq/Ack/Check = 10/10/-754911721:  +fpdWK>2&+k_RF3-~rfY
+Event Time =  751.193 B: LAYER 3  Seq/Ack/Check = 11/11/725158163:  ,16;AFKPUZ,ejoty~&+0
+Event Time =  759.448 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time =  765.482 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.;~Iq.d.V~IqV
+Event Time =  771.049 B: LAYER 3  Seq/Ack/Check = 14/14/-950406659:  xiE~Z6pL(b=wSxiE~Z6p
+Event Time =  796.676 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  822.917 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  833.247 B: LAYER 3  Seq/Ack/Check = 167772160/10/-754911721:  +fpdWK>2&+k_RF3-~rfY
+Event Time =  861.310 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time =  871.633 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.V~Iq.d.V~Iq;
+Event Time =  894.017 B: LAYER 3  Seq/Ack/Check = 15/15/-1093754917:  d{iVD1|jWE2}2X03~lYG
+Event Time =  902.909 B: LAYER 3  Seq/Ack/Check = 16/16/1818540362:  10x.-,+*)('&%$#1~}|{
+Event Time =  930.646 B: LAYER 3  Seq/Ack/Check = 17/17/-1280639672:  2CSdt'7HXiy,<M^n21BR
+Event Time =  944.169 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  958.292 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  977.133 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  993.133 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1012.777 B: LAYER 3  Seq/Ack/Check = 10/10/-754911721:  +fpdWK>2&+k_RF3-~rfY
+Event Time = 1023.095 B: LAYER 3  Seq/Ack/Check = 11/11/725158163:  ,16;AFKPUZ,ejoty~&+0
+Event Time = 1037.102 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time = 1064.079 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.V~Iq.d.V~Iq;
+Event Time = 1075.694 B: LAYER 3  Seq/Ack/Check = 14/14/-950406659:  xiE~Z6pL(b=wSxiE~Z6p
+Event Time = 1087.844 B: LAYER 3  Seq/Ack/Check = 17/17/-1280639672:  2CSdt'7HXiy,<M^n21BR
+Event Time = 1093.981 B: LAYER 3  Seq/Ack/Check = 18/18/-952330305:  3Uw;^!Df*Ln2Tv:]~3e)
+Event Time = 1095.633 B: LAYER 3  Seq/Ack/Check = 19/19/-868674615:  4f=qPzG&Yxc8lB3K~T4^
+Event Time = 1124.666 B: LAYER 3  Seq/Ack/Check = 20/20/-847350819:  5zbI0u]D+pW>&kR9?fM5
+Event Time = 1149.502 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1159.454 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1166.463 B: LAYER 3  Seq/Ack/Check = 10/10/-754911721:  +fpdWK>2&+k_RF3-~rfY
+Event Time = 1181.495 B: LAYER 3  Seq/Ack/Check = 11/11/724961555:  ,19;AFKPUZ,ejoty~&+0
+Event Time = 1211.104 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time = 1217.697 B: LAYER 3  Seq/Ack/Check = 13/13/785721994:  jV~Iq;d.V~Iq.d.V~Iq;
+Event Time = 1221.175 B: LAYER 3  Seq/Ack/Check = 14/14/-950406659:  xiE~Z6pL(b=wSxiE~Z6p
+Event Time = 1248.450 B: LAYER 3  Seq/Ack/Check = 15/15/-1093754917:  d{iVD1|jWE2}2X03~lYG
+Event Time = 1256.168 B: LAYER 3  Seq/Ack/Check = 16/16/1815198026:  10x.-,+*)('&%$#d~}|{
+Event Time = 1257.487 B: LAYER 3  Seq/Ack/Check = 17/17/-1280639672:  2CSdt'7HXiy,<M^n21BR
+Event Time = 1272.607 B: LAYER 3  Seq/Ack/Check = 20/20/-845450275:  5zbI0u]D+pW>&kR9~fM5
+Event Time = 1290.766 B: LAYER 3  Seq/Ack/Check = 21/21/1172550795:  6x(~wpibZSL{=6x(~wpi
+Event Time = 1299.397 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1307.958 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1312.949 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1328.534 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1357.360 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1382.142 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1389.724 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1416.043 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1445.368 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1450.665 B: LAYER 3  Seq/Ack/Check = 10/3276810/-754911721:  +fpdWK>&+k_RF3-~rfY
+Event Time = 1467.977 B: LAYER 3  Seq/Ack/Check = 11/11/725158163:  ,16;AFKPUZ,ejoty~&+0
+Event Time = 1472.159 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time = 1502.280 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.V~Iq.d.V~Iq;
+Event Time = 1509.018 B: LAYER 3  Seq/Ack/Check = 14/14/-950406659:  xiE~Z6pL(b=wSxiE~Z6p
+Event Time = 1534.320 B: LAYER 3  Seq/Ack/Check = 16/16/1818540362:  10x.-,+*)('&%$#1~}|{
+Event Time = 1541.735 B: LAYER 3  Seq/Ack/Check = 17/17/-1280639672:  2CSd,'7HXiyt<M^n21BR
+Event Time = 1560.469 B: LAYER 3  Seq/Ack/Check = 18/18/-952330305:  3Uw;^!Df*Ln2Tv:]~3e)
+Event Time = 1567.192 B: LAYER 3  Seq/Ack/Check = 20/20/-845450275:  5zbI0u]D+pW>&kR9~fM5
+Event Time = 1592.085 B: LAYER 3  Seq/Ack/Check = 21/21/2078520459:  6x(~wpibZSLE=6x(~wpi
+Event Time = 1607.461 B: LAYER 3  Seq/Ack/Check = 22/22/-372015856:  d7LVaku!,6AK2`jt~+5?
+Event Time = 1614.075 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1639.352 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1668.193 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1678.420 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1706.695 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1736.414 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1765.258 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1790.775 B: LAYER 3  Seq/Ack/Check = 11/11/725158163:  ,16;AFKPUZ,ejoty~&+0
+Event Time = 1817.666 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time = 1841.142 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.V~Iq.d.V~Iq;
+Event Time = 1870.007 B: LAYER 3  Seq/Ack/Check = 15/15/-1093754917:  d{iVD1|jWE2}2X03~lYG
+Event Time = 1897.174 B: LAYER 3  Seq/Ack/Check = 16/16/1818540362:  10x.-,+*)('&%$#1~}|{
+Event Time = 1927.267 B: LAYER 3  Seq/Ack/Check = 17/17/-1280639672:  2CSdt'7HXiy,<M^n21BR
+Event Time = 1952.443 B: LAYER 3  Seq/Ack/Check = 18/18/-952330305:  3Uw;^!Df*Ln2Tv:]~3e)
+Event Time = 1957.925 B: LAYER 3  Seq/Ack/Check = 19/19/-868674615:  4f=qGzP&Yxc8lB3K~T4^
+Event Time = 1979.777 B: LAYER 3  Seq/Ack/Check = 20/20/-845450275:  5zb0Iu]D+pW>&kR9~fM5
+Event Time = 1995.416 B: LAYER 3  Seq/Ack/Check = 21/21/2078520459:  6x~(wpibZSLE=6x(~wpi
+Event Time = 2013.724 B: LAYER 3  Seq/Ack/Check = 22/22/-372015856:  d7LVaku!,6AK2`jt~+5?
+Event Time = 2022.964 B: LAYER 3  Seq/Ack/Check = 23/23/-1967922787:  8T8.J?$f[w5Qm+Gc~<Xt
+Event Time = 2038.192 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2063.457 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2078.610 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2082.839 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2095.108 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2115.917 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2120.824 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2142.450 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time = 2144.182 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.V~Iq.d.V~Iq;
+Event Time = 2158.920 B: LAYER 3  Seq/Ack/Check = 14/14/-950406659:  xiE~Z6pL(b=wSxiE~Z6p
+Event Time = 2188.531 B: LAYER 3  Seq/Ack/Check = 15/15/-1093754917:  d{iVD1|jWE2}2X03~lYG
+Event Time = 2206.459 B: LAYER 3  Seq/Ack/Check = 16/16/1818540362:  10x.-,+*)('&%$#1~}|{
+Event Time = 2236.896 B: LAYER 3  Seq/Ack/Check = 17/7929873/-1280639672:  2CSdt'7HXi,<M^n21BR
+Event Time = 2253.116 B: LAYER 3  Seq/Ack/Check = 18/18/-952330305:  3Uw;^!Df*Ln2Tv:]~3e)
+Event Time = 2281.969 B: LAYER 3  Seq/Ack/Check = 19/19/-868674615:  4f=qGzP&Yxc8lB3K~T4^
+Event Time = 2285.349 B: LAYER 3  Seq/Ack/Check = 20/20/-845450275:  >zbI0u]D+pW5&kR9~fM5
+Event Time = 2290.519 B: LAYER 3  Seq/Ack/Check = 21/21/2066265227:  6x(~wpibZSLE=6x?~wpi
+Event Time = 2320.960 B: LAYER 3  Seq/Ack/Check = 22/22/-372015774:  7LVaku!,6AK3`jt~+5?
+Event Time = 2348.879 B: LAYER 3  Seq/Ack/Check = 23/23/-1967922787:  8T8.Jf$?[w5Qm+Gc~<Xt
+Event Time = 2377.735 B: LAYER 3  Seq/Ack/Check = 24/24/245088078:  9g693a0^-Z*W'T$Q~N{K
+Event Time = 2388.530 B: LAYER 3  Seq/Ack/Check = 26/26/1218045262:  ;.~qd;I;.~qdVI;.~qdV
+Event Time = 2390.934 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2393.736 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2420.583 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2438.267 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2453.724 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2475.694 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2488.759 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2513.254 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2539.118 B: LAYER 3  Seq/Ack/Check = 15/15/-1093754917:  d{iVD1|jWE2}2X03~lYG
+Event Time = 2555.897 B: LAYER 3  Seq/Ack/Check = 16/16/1818540362:  10x.-,+*)('&%$#1~}|{
+Event Time = 2563.887 B: LAYER 3  Seq/Ack/Check = 18/18/-952330305:  3Uw;^!Df*Ln2Tv:]~3e)
+Event Time = 2582.029 B: LAYER 3  Seq/Ack/Check = 19/19/-868674615:  4f=qGzP&Yxc8lB3K~T4^
+Event Time = 2609.370 B: LAYER 3  Seq/Ack/Check = 20/20/-845450275:  5z>I0u]D+pWb&kR9~fM5
+Event Time = 2637.717 B: LAYER 3  Seq/Ack/Check = 21/21/2078520459:  6x(~wpibZSLE=6x(~wpi
+Event Time = 2653.031 B: LAYER 3  Seq/Ack/Check = 22/22/-372015856:  d7LVaku!,6AK2`jt~+5?
+Event Time = 2662.564 B: LAYER 3  Seq/Ack/Check = 23/23/-1967922787:  8T8.Jf$?[w5Qm+Gc~<Xt
+Event Time = 2677.627 B: LAYER 3  Seq/Ack/Check = 24/24/245088078:  9g693a0^-Z*W'T$Q~N{K
+Event Time = 2706.697 B: LAYER 3  Seq/Ack/Check = 25/25/-1606178323:  :yZ;:[<{]=|^>}_?~`A!
+Event Time = 2723.138 B: LAYER 3  Seq/Ack/Check = 26/26/1218045262:  ;.~qd;I;.~qdVI;.~qdV
+Event Time = 2736.936 B: LAYER 3  Seq/Ack/Check = 27/27/594666345:  <AEIMQ<Y^bfjnrvz~%)-
+Event Time = 2764.798 B: LAYER 3  Seq/Ack/Check = 28/28/2132668443:  =fi~6Lb=xEZp(=3i~6Lb
+Event Time = 2766.755 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2773.554 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2802.423 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2811.281 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2818.665 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2840.316 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2856.956 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2886.826 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+
+
+----Timer interrupt has occured.----
+----A will resend packets----
+
+Printing the contents of the Simulation Event Q
+Event Time =  327.392 A: Timer    
+Event Time =  339.998 B: LAYER 3  Seq/Ack/Check = 9/9/-208149110:  *jL.nP2r*6vX:z]>~aC%
+Event Time =  341.680 B: LAYER 3  Seq/Ack/Check = 10/10/755037719:  +fpdWK>2&+k_RF3?~rfY
+Event Time =  347.913 B: LAYER 3  Seq/Ack/Check = 3/3/2001952617:  $X$d:oFzQ(]3h>sJ~U,a
+Event Time =  350.476 B: LAYER 3  Seq/Ack/Check = 4/4/58440569:  %kS%$jR:#iQ9!hP8~gO7
+Event Time =  377.369 B: LAYER 3  Seq/Ack/Check = 5/5/2145705615:  &}wq&e_XRLF?93-'~xrl
+Event Time =  397.964 B: LAYER 3  Seq/Ack/Check = 8/8/1016854966:  dW(V'U&)%S$R2Q!P~O}N
+Event Time =  415.653 B: LAYER 3  Seq/Ack/Check = 10/10/-754911721:  +fpdWK>2&+k_RF3-~rfY
+Event Time =  438.337 B: LAYER 3  Seq/Ack/Check = 11/11/725158163:  ,16;AFKPUZ,ejoty~&+0
+Event Time =  455.532 B: LAYER 3  Seq/Ack/Check = 6/6/-895121073:  '2=IT'kv$x:FQ]hs~,7C
+Event Time =  471.666 B: LAYER 3  Seq/Ack/Check = 7/7/1774423615:  (Eb~=Z(6SpxLi(Eb~=Zw
+Event Time =  495.091 B: LAYER 3  Seq/Ack/Check = 8/8/1016854966:  dW(V'U&)%S$R2Q!P~O}N
+Event Time =  501.839 B: LAYER 3  Seq/Ack/Check = 9/9/-208149110:  *jL.nP2r*6vX:z]>~aC%
+Event Time =  512.623 B: LAYER 3  Seq/Ack/Check = 10/10/-754911721:  +fpdWK>2&+k_RF3-~rfY
+Event Time =  529.609 B: LAYER 3  Seq/Ack/Check = 11/11/725158163:  ,o6;AFKPUZ,ej1ty~&+0
+Event Time =  544.330 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time =  550.643 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  570.611 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  573.479 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  602.065 B: LAYER 3  Seq/Ack/Check = 8/8/1016854966:  dW(V'U&)%S$R2Q!P~O}N
+Event Time =  609.605 B: LAYER 3  Seq/Ack/Check = 9/9/-208149110:  *jL.nP2r*6vX:z]>~aC%
+Event Time =  617.341 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time =  619.073 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.V~Iq.d.V~Iq;
+Event Time =  636.499 B: LAYER 3  Seq/Ack/Check = 14/14/-950406659:  xiE~Z6pL(b=wSxiE~Z6p
+Event Time =  652.816 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  681.264 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  683.016 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  696.305 B: LAYER 3  Seq/Ack/Check = 7/7/1774423615:  (Eb~=Z(6SpxLi(Eb~=Zw
+Event Time =  705.955 B: LAYER 3  Seq/Ack/Check = 8/-1241513976/1016854784:  bW(V'U&)%S$R3Q!P~O}N
+Event Time =  715.276 B: LAYER 3  Seq/Ack/Check = 9/9/-208149110:  *jL.nP2r*6vX:z]>~aC%
+Event Time =  735.495 B: LAYER 3  Seq/Ack/Check = 10/10/-754911721:  +fpdWK>2&+k_RF3-~rfY
+Event Time =  751.193 B: LAYER 3  Seq/Ack/Check = 11/11/725158163:  ,16;AFKPUZ,ejoty~&+0
+Event Time =  759.448 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time =  765.482 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.;~Iq.d.V~IqV
+Event Time =  771.049 B: LAYER 3  Seq/Ack/Check = 14/14/-950406659:  xiE~Z6pL(b=wSxiE~Z6p
+Event Time =  796.676 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  822.917 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  833.247 B: LAYER 3  Seq/Ack/Check = 167772160/10/-754911721:  +fpdWK>2&+k_RF3-~rfY
+Event Time =  861.310 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time =  871.633 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.V~Iq.d.V~Iq;
+Event Time =  894.017 B: LAYER 3  Seq/Ack/Check = 15/15/-1093754917:  d{iVD1|jWE2}2X03~lYG
+Event Time =  902.909 B: LAYER 3  Seq/Ack/Check = 16/16/1818540362:  10x.-,+*)('&%$#1~}|{
+Event Time =  930.646 B: LAYER 3  Seq/Ack/Check = 17/17/-1280639672:  2CSdt'7HXiy,<M^n21BR
+Event Time =  944.169 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  958.292 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  977.133 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  993.133 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1012.777 B: LAYER 3  Seq/Ack/Check = 10/10/-754911721:  +fpdWK>2&+k_RF3-~rfY
+Event Time = 1023.095 B: LAYER 3  Seq/Ack/Check = 11/11/725158163:  ,16;AFKPUZ,ejoty~&+0
+Event Time = 1037.102 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time = 1064.079 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.V~Iq.d.V~Iq;
+Event Time = 1075.694 B: LAYER 3  Seq/Ack/Check = 14/14/-950406659:  xiE~Z6pL(b=wSxiE~Z6p
+Event Time = 1087.844 B: LAYER 3  Seq/Ack/Check = 17/17/-1280639672:  2CSdt'7HXiy,<M^n21BR
+Event Time = 1093.981 B: LAYER 3  Seq/Ack/Check = 18/18/-952330305:  3Uw;^!Df*Ln2Tv:]~3e)
+Event Time = 1095.633 B: LAYER 3  Seq/Ack/Check = 19/19/-868674615:  4f=qPzG&Yxc8lB3K~T4^
+Event Time = 1124.666 B: LAYER 3  Seq/Ack/Check = 20/20/-847350819:  5zbI0u]D+pW>&kR9?fM5
+Event Time = 1149.502 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1159.454 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1166.463 B: LAYER 3  Seq/Ack/Check = 10/10/-754911721:  +fpdWK>2&+k_RF3-~rfY
+Event Time = 1181.495 B: LAYER 3  Seq/Ack/Check = 11/11/724961555:  ,19;AFKPUZ,ejoty~&+0
+Event Time = 1211.104 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time = 1217.697 B: LAYER 3  Seq/Ack/Check = 13/13/785721994:  jV~Iq;d.V~Iq.d.V~Iq;
+Event Time = 1221.175 B: LAYER 3  Seq/Ack/Check = 14/14/-950406659:  xiE~Z6pL(b=wSxiE~Z6p
+Event Time = 1248.450 B: LAYER 3  Seq/Ack/Check = 15/15/-1093754917:  d{iVD1|jWE2}2X03~lYG
+Event Time = 1256.168 B: LAYER 3  Seq/Ack/Check = 16/16/1815198026:  10x.-,+*)('&%$#d~}|{
+Event Time = 1257.487 B: LAYER 3  Seq/Ack/Check = 17/17/-1280639672:  2CSdt'7HXiy,<M^n21BR
+Event Time = 1272.607 B: LAYER 3  Seq/Ack/Check = 20/20/-845450275:  5zbI0u]D+pW>&kR9~fM5
+Event Time = 1290.766 B: LAYER 3  Seq/Ack/Check = 21/21/1172550795:  6x(~wpibZSL{=6x(~wpi
+Event Time = 1299.397 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1307.958 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1312.949 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1328.534 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1357.360 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1382.142 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1389.724 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1416.043 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1445.368 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1450.665 B: LAYER 3  Seq/Ack/Check = 10/3276810/-754911721:  +fpdWK>&+k_RF3-~rfY
+Event Time = 1467.977 B: LAYER 3  Seq/Ack/Check = 11/11/725158163:  ,16;AFKPUZ,ejoty~&+0
+Event Time = 1472.159 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time = 1502.280 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.V~Iq.d.V~Iq;
+Event Time = 1509.018 B: LAYER 3  Seq/Ack/Check = 14/14/-950406659:  xiE~Z6pL(b=wSxiE~Z6p
+Event Time = 1534.320 B: LAYER 3  Seq/Ack/Check = 16/16/1818540362:  10x.-,+*)('&%$#1~}|{
+Event Time = 1541.735 B: LAYER 3  Seq/Ack/Check = 17/17/-1280639672:  2CSd,'7HXiyt<M^n21BR
+Event Time = 1560.469 B: LAYER 3  Seq/Ack/Check = 18/18/-952330305:  3Uw;^!Df*Ln2Tv:]~3e)
+Event Time = 1567.192 B: LAYER 3  Seq/Ack/Check = 20/20/-845450275:  5zbI0u]D+pW>&kR9~fM5
+Event Time = 1592.085 B: LAYER 3  Seq/Ack/Check = 21/21/2078520459:  6x(~wpibZSLE=6x(~wpi
+Event Time = 1607.461 B: LAYER 3  Seq/Ack/Check = 22/22/-372015856:  d7LVaku!,6AK2`jt~+5?
+Event Time = 1614.075 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1639.352 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1668.193 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1678.420 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1706.695 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1736.414 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1765.258 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1790.775 B: LAYER 3  Seq/Ack/Check = 11/11/725158163:  ,16;AFKPUZ,ejoty~&+0
+Event Time = 1817.666 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time = 1841.142 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.V~Iq.d.V~Iq;
+Event Time = 1870.007 B: LAYER 3  Seq/Ack/Check = 15/15/-1093754917:  d{iVD1|jWE2}2X03~lYG
+Event Time = 1897.174 B: LAYER 3  Seq/Ack/Check = 16/16/1818540362:  10x.-,+*)('&%$#1~}|{
+Event Time = 1927.267 B: LAYER 3  Seq/Ack/Check = 17/17/-1280639672:  2CSdt'7HXiy,<M^n21BR
+Event Time = 1952.443 B: LAYER 3  Seq/Ack/Check = 18/18/-952330305:  3Uw;^!Df*Ln2Tv:]~3e)
+Event Time = 1957.925 B: LAYER 3  Seq/Ack/Check = 19/19/-868674615:  4f=qGzP&Yxc8lB3K~T4^
+Event Time = 1979.777 B: LAYER 3  Seq/Ack/Check = 20/20/-845450275:  5zb0Iu]D+pW>&kR9~fM5
+Event Time = 1995.416 B: LAYER 3  Seq/Ack/Check = 21/21/2078520459:  6x~(wpibZSLE=6x(~wpi
+Event Time = 2013.724 B: LAYER 3  Seq/Ack/Check = 22/22/-372015856:  d7LVaku!,6AK2`jt~+5?
+Event Time = 2022.964 B: LAYER 3  Seq/Ack/Check = 23/23/-1967922787:  8T8.J?$f[w5Qm+Gc~<Xt
+Event Time = 2038.192 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2063.457 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2078.610 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2082.839 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2095.108 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2115.917 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2120.824 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2142.450 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time = 2144.182 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.V~Iq.d.V~Iq;
+Event Time = 2158.920 B: LAYER 3  Seq/Ack/Check = 14/14/-950406659:  xiE~Z6pL(b=wSxiE~Z6p
+Event Time = 2188.531 B: LAYER 3  Seq/Ack/Check = 15/15/-1093754917:  d{iVD1|jWE2}2X03~lYG
+Event Time = 2206.459 B: LAYER 3  Seq/Ack/Check = 16/16/1818540362:  10x.-,+*)('&%$#1~}|{
+Event Time = 2236.896 B: LAYER 3  Seq/Ack/Check = 17/7929873/-1280639672:  2CSdt'7HXi,<M^n21BR
+Event Time = 2253.116 B: LAYER 3  Seq/Ack/Check = 18/18/-952330305:  3Uw;^!Df*Ln2Tv:]~3e)
+Event Time = 2281.969 B: LAYER 3  Seq/Ack/Check = 19/19/-868674615:  4f=qGzP&Yxc8lB3K~T4^
+Event Time = 2285.349 B: LAYER 3  Seq/Ack/Check = 20/20/-845450275:  >zbI0u]D+pW5&kR9~fM5
+Event Time = 2290.519 B: LAYER 3  Seq/Ack/Check = 21/21/2066265227:  6x(~wpibZSLE=6x?~wpi
+Event Time = 2320.960 B: LAYER 3  Seq/Ack/Check = 22/22/-372015774:  7LVaku!,6AK3`jt~+5?
+Event Time = 2348.879 B: LAYER 3  Seq/Ack/Check = 23/23/-1967922787:  8T8.Jf$?[w5Qm+Gc~<Xt
+Event Time = 2377.735 B: LAYER 3  Seq/Ack/Check = 24/24/245088078:  9g693a0^-Z*W'T$Q~N{K
+Event Time = 2388.530 B: LAYER 3  Seq/Ack/Check = 26/26/1218045262:  ;.~qd;I;.~qdVI;.~qdV
+Event Time = 2390.934 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2393.736 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2420.583 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2438.267 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2453.724 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2475.694 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2488.759 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2513.254 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2539.118 B: LAYER 3  Seq/Ack/Check = 15/15/-1093754917:  d{iVD1|jWE2}2X03~lYG
+Event Time = 2555.897 B: LAYER 3  Seq/Ack/Check = 16/16/1818540362:  10x.-,+*)('&%$#1~}|{
+Event Time = 2563.887 B: LAYER 3  Seq/Ack/Check = 18/18/-952330305:  3Uw;^!Df*Ln2Tv:]~3e)
+Event Time = 2582.029 B: LAYER 3  Seq/Ack/Check = 19/19/-868674615:  4f=qGzP&Yxc8lB3K~T4^
+Event Time = 2609.370 B: LAYER 3  Seq/Ack/Check = 20/20/-845450275:  5z>I0u]D+pWb&kR9~fM5
+Event Time = 2637.717 B: LAYER 3  Seq/Ack/Check = 21/21/2078520459:  6x(~wpibZSLE=6x(~wpi
+Event Time = 2653.031 B: LAYER 3  Seq/Ack/Check = 22/22/-372015856:  d7LVaku!,6AK2`jt~+5?
+Event Time = 2662.564 B: LAYER 3  Seq/Ack/Check = 23/23/-1967922787:  8T8.Jf$?[w5Qm+Gc~<Xt
+Event Time = 2677.627 B: LAYER 3  Seq/Ack/Check = 24/24/245088078:  9g693a0^-Z*W'T$Q~N{K
+Event Time = 2706.697 B: LAYER 3  Seq/Ack/Check = 25/25/-1606178323:  :yZ;:[<{]=|^>}_?~`A!
+Event Time = 2723.138 B: LAYER 3  Seq/Ack/Check = 26/26/1218045262:  ;.~qd;I;.~qdVI;.~qdV
+Event Time = 2736.936 B: LAYER 3  Seq/Ack/Check = 27/27/594666345:  <AEIMQ<Y^bfjnrvz~%)-
+Event Time = 2764.798 B: LAYER 3  Seq/Ack/Check = 28/28/2132668443:  =fi~6Lb=xEZp(=3i~6Lb
+Event Time = 2766.755 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2773.554 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2802.423 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2811.281 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2818.665 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2840.316 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2856.956 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2886.826 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2912.219 B: LAYER 3  Seq/Ack/Check = 15/15/-1093754917:  d{iVD1|jWE2}2X03~lYG
+Event Time = 2942.710 B: LAYER 3  Seq/Ack/Check = 16/16/1818540362:  10x.-,+*)('&%$#1~}|{
+Event Time = 2971.917 B: LAYER 3  Seq/Ack/Check = 17/17/-1280639672:  2CSdt'7HXiy,<M^n21BR
+Event Time = 2973.180 B: LAYER 3  Seq/Ack/Check = 18/18/-952330305:  3Uw;^!Df*Ln2Tv:]~3e)
+Event Time = 2974.460 B: LAYER 3  Seq/Ack/Check = 19/21523/-868674615:  4f=qGzP&Yxc8lB3K~4^
+Event Time = 3001.996 B: LAYER 3  Seq/Ack/Check = 20/20/-845450275:  5zbI0u]D+pW>&kR9~fM5
+Event Time = 3023.849 B: LAYER 3  Seq/Ack/Check = 21/21/2078520459:  6x(~wpibZSLE=6x(~wpi
+Event Time = 3053.244 B: LAYER 3  Seq/Ack/Check = 22/22/-372015856:  d7LVaku!,6AK2`jt~+5?
+Event Time = 3078.103 B: LAYER 3  Seq/Ack/Check = 23/23/-1967922787:  8T8.Jf$?[w5Qm+Gc~<Xt
+Event Time = 3109.059 B: LAYER 3  Seq/Ack/Check = 24/24/245088078:  9g693a0^-Z*W'T$Q~N{K
+Event Time = 3119.738 B: LAYER 3  Seq/Ack/Check = 25/25/-1606178323:  :yZ;:[<{]=|^>}_?~`A!
+Event Time = 3134.460 B: LAYER 3  Seq/Ack/Check = 26/26/1218045297:  ;.~qd;I;.~qdVI;.~NdV
+Event Time = 3144.831 B: LAYER 3  Seq/Ack/Check = 27/27/594666345:  <AEIMQ<Y^bfjnrvz~%)-
+Event Time = 3158.233 B: LAYER 3  Seq/Ack/Check = 28/28/2132668443:  =fi~6Lb=xEZp(=3i~6Lb
+Event Time = 3176.001 B: LAYER 3  Seq/Ack/Check = 29/29/-26412993:  dfxV}Gn7>(Ov2g0W~Ho8
+Event Time = 3187.004 B: LAYER 3  Seq/Ack/Check = 30/52254/3617363:  ?xS.gBzU0?D|W2kF~Y4m
+Event Time = 3215.209 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3230.137 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3254.844 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3273.466 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3301.487 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3330.029 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3341.697 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3369.543 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3382.024 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+
+
+----B received packet with sequence number: 8----
+----Payload of received packet is: dW(V'U&)%S$R2Q!P~O}N----
+B:     312.0922,  Layer 4 to 5  Message = dW(V'U&)%S$R2Q!P~O}N
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----ACK packet sent----
+
+----Timer interrupt has occured.----
+----A will resend packets----
+
+----A got corrupt packet.----
+
+----B received packet with sequence number: 9----
+----Payload of received packet is: *jL.nP2r*6vX:z]>~aC%----
+B:     339.9977,  Layer 4 to 5  Message = *jL.nP2r*6vX:z]>~aC%
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----ACK packet sent----
+----B did not accept packet which had sequence number: 10----
+
+----Timer interrupt has occured.----
+----A will resend packets----
+
+----B received packet with sequence number: 3----
+----Payload of received packet is: $X$d:oFzQ(]3h>sJ~U,a----
+B:     347.9131,  Layer 4 to 5  Message = $X$d:oFzQ(]3h>sJ~U,a
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----ACK packet sent----
+
+----B received packet with sequence number: 4----
+----Payload of received packet is: %kS%$jR:#iQ9!hP8~gO7----
+B:     350.4762,  Layer 4 to 5  Message = %kS%$jR:#iQ9!hP8~gO7
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----ACK packet sent----
+
+----A has received the proper packet, with ACK value: 9----
+
+----Timer interrupt has occured.----
+----A will resend packets----
+
+----A has received the proper packet, with ACK value: 9----
+
+----B received packet with sequence number: 5----
+----Payload of received packet is: &}wq&e_XRLF?93-'~xrl----
+B:     377.3689,  Layer 4 to 5  Message = &}wq&e_XRLF?93-'~xrl
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----ACK packet sent----
+
+----Timer interrupt has occured.----
+----A will resend packets----
+
+----A has received the proper packet, with ACK value: 4----
+
+----B received packet with sequence number: 8----
+----Payload of received packet is: dW(V'U&)%S$R2Q!P~O}N----
+B:     397.9637,  Layer 4 to 5  Message = dW(V'U&)%S$R2Q!P~O}N
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----ACK packet sent----
+
+----Timer interrupt has occured.----
+----A will resend packets----
+
+----B received packet with sequence number: 10----
+----Payload of received packet is: +fpdWK>2&+k_RF3-~rfY----
+B:     415.6528,  Layer 4 to 5  Message = +fpdWK>2&+k_RF3-~rfY
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----ACK packet sent----
+
+----A has received the proper packet, with ACK value: 8----
+
+----Timer interrupt has occured.----
+----A will resend packets----
+
+----A got corrupt packet.----
+
+----B received packet with sequence number: 11----
+----Payload of received packet is: ,16;AFKPUZ,ejoty~&+0----
+B:     438.3374,  Layer 4 to 5  Message = ,16;AFKPUZ,ejoty~&+0
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----ACK packet sent----
+
+Printing the contents of the Simulation Event Q
+Event Time =  455.532 B: LAYER 3  Seq/Ack/Check = 6/6/-895121073:  '2=IT'kv$x:FQ]hs~,7C
+Event Time =  471.666 B: LAYER 3  Seq/Ack/Check = 7/7/1774423615:  (Eb~=Z(6SpxLi(Eb~=Zw
+Event Time =  495.091 B: LAYER 3  Seq/Ack/Check = 8/8/1016854966:  dW(V'U&)%S$R2Q!P~O}N
+Event Time =  501.839 B: LAYER 3  Seq/Ack/Check = 9/9/-208149110:  *jL.nP2r*6vX:z]>~aC%
+Event Time =  512.623 B: LAYER 3  Seq/Ack/Check = 10/10/-754911721:  +fpdWK>2&+k_RF3-~rfY
+Event Time =  529.609 B: LAYER 3  Seq/Ack/Check = 11/11/725158163:  ,o6;AFKPUZ,ej1ty~&+0
+Event Time =  544.330 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time =  550.643 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  570.611 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  573.479 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  602.065 B: LAYER 3  Seq/Ack/Check = 8/8/1016854966:  dW(V'U&)%S$R2Q!P~O}N
+Event Time =  609.605 B: LAYER 3  Seq/Ack/Check = 9/9/-208149110:  *jL.nP2r*6vX:z]>~aC%
+Event Time =  617.341 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time =  619.073 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.V~Iq.d.V~Iq;
+Event Time =  636.499 B: LAYER 3  Seq/Ack/Check = 14/14/-950406659:  xiE~Z6pL(b=wSxiE~Z6p
+Event Time =  652.816 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  681.264 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  683.016 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  696.305 B: LAYER 3  Seq/Ack/Check = 7/7/1774423615:  (Eb~=Z(6SpxLi(Eb~=Zw
+Event Time =  705.955 B: LAYER 3  Seq/Ack/Check = 8/-1241513976/1016854784:  bW(V'U&)%S$R3Q!P~O}N
+Event Time =  715.276 B: LAYER 3  Seq/Ack/Check = 9/9/-208149110:  *jL.nP2r*6vX:z]>~aC%
+Event Time =  735.495 B: LAYER 3  Seq/Ack/Check = 10/10/-754911721:  +fpdWK>2&+k_RF3-~rfY
+Event Time =  751.193 B: LAYER 3  Seq/Ack/Check = 11/11/725158163:  ,16;AFKPUZ,ejoty~&+0
+Event Time =  759.448 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time =  765.482 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.;~Iq.d.V~IqV
+Event Time =  771.049 B: LAYER 3  Seq/Ack/Check = 14/14/-950406659:  xiE~Z6pL(b=wSxiE~Z6p
+Event Time =  796.676 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  822.917 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  833.247 B: LAYER 3  Seq/Ack/Check = 167772160/10/-754911721:  +fpdWK>2&+k_RF3-~rfY
+Event Time =  861.310 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time =  871.633 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.V~Iq.d.V~Iq;
+Event Time =  894.017 B: LAYER 3  Seq/Ack/Check = 15/15/-1093754917:  d{iVD1|jWE2}2X03~lYG
+Event Time =  902.909 B: LAYER 3  Seq/Ack/Check = 16/16/1818540362:  10x.-,+*)('&%$#1~}|{
+Event Time =  930.646 B: LAYER 3  Seq/Ack/Check = 17/17/-1280639672:  2CSdt'7HXiy,<M^n21BR
+Event Time =  944.169 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  958.292 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  977.133 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  993.133 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1012.777 B: LAYER 3  Seq/Ack/Check = 10/10/-754911721:  +fpdWK>2&+k_RF3-~rfY
+Event Time = 1023.095 B: LAYER 3  Seq/Ack/Check = 11/11/725158163:  ,16;AFKPUZ,ejoty~&+0
+Event Time = 1037.102 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time = 1064.079 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.V~Iq.d.V~Iq;
+Event Time = 1075.694 B: LAYER 3  Seq/Ack/Check = 14/14/-950406659:  xiE~Z6pL(b=wSxiE~Z6p
+Event Time = 1087.844 B: LAYER 3  Seq/Ack/Check = 17/17/-1280639672:  2CSdt'7HXiy,<M^n21BR
+Event Time = 1093.981 B: LAYER 3  Seq/Ack/Check = 18/18/-952330305:  3Uw;^!Df*Ln2Tv:]~3e)
+Event Time = 1095.633 B: LAYER 3  Seq/Ack/Check = 19/19/-868674615:  4f=qPzG&Yxc8lB3K~T4^
+Event Time = 1124.666 B: LAYER 3  Seq/Ack/Check = 20/20/-847350819:  5zbI0u]D+pW>&kR9?fM5
+Event Time = 1149.502 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1159.454 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1166.463 B: LAYER 3  Seq/Ack/Check = 10/10/-754911721:  +fpdWK>2&+k_RF3-~rfY
+Event Time = 1181.495 B: LAYER 3  Seq/Ack/Check = 11/11/724961555:  ,19;AFKPUZ,ejoty~&+0
+Event Time = 1211.104 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time = 1217.697 B: LAYER 3  Seq/Ack/Check = 13/13/785721994:  jV~Iq;d.V~Iq.d.V~Iq;
+Event Time = 1221.175 B: LAYER 3  Seq/Ack/Check = 14/14/-950406659:  xiE~Z6pL(b=wSxiE~Z6p
+Event Time = 1248.450 B: LAYER 3  Seq/Ack/Check = 15/15/-1093754917:  d{iVD1|jWE2}2X03~lYG
+Event Time = 1256.168 B: LAYER 3  Seq/Ack/Check = 16/16/1815198026:  10x.-,+*)('&%$#d~}|{
+Event Time = 1257.487 B: LAYER 3  Seq/Ack/Check = 17/17/-1280639672:  2CSdt'7HXiy,<M^n21BR
+Event Time = 1272.607 B: LAYER 3  Seq/Ack/Check = 20/20/-845450275:  5zbI0u]D+pW>&kR9~fM5
+Event Time = 1290.766 B: LAYER 3  Seq/Ack/Check = 21/21/1172550795:  6x(~wpibZSL{=6x(~wpi
+Event Time = 1299.397 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1307.958 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1312.949 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1328.534 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1357.360 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1382.142 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1389.724 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1416.043 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1445.368 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1450.665 B: LAYER 3  Seq/Ack/Check = 10/3276810/-754911721:  +fpdWK>&+k_RF3-~rfY
+Event Time = 1467.977 B: LAYER 3  Seq/Ack/Check = 11/11/725158163:  ,16;AFKPUZ,ejoty~&+0
+Event Time = 1472.159 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time = 1502.280 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.V~Iq.d.V~Iq;
+Event Time = 1509.018 B: LAYER 3  Seq/Ack/Check = 14/14/-950406659:  xiE~Z6pL(b=wSxiE~Z6p
+Event Time = 1534.320 B: LAYER 3  Seq/Ack/Check = 16/16/1818540362:  10x.-,+*)('&%$#1~}|{
+Event Time = 1541.735 B: LAYER 3  Seq/Ack/Check = 17/17/-1280639672:  2CSd,'7HXiyt<M^n21BR
+Event Time = 1560.469 B: LAYER 3  Seq/Ack/Check = 18/18/-952330305:  3Uw;^!Df*Ln2Tv:]~3e)
+Event Time = 1567.192 B: LAYER 3  Seq/Ack/Check = 20/20/-845450275:  5zbI0u]D+pW>&kR9~fM5
+Event Time = 1592.085 B: LAYER 3  Seq/Ack/Check = 21/21/2078520459:  6x(~wpibZSLE=6x(~wpi
+Event Time = 1607.461 B: LAYER 3  Seq/Ack/Check = 22/22/-372015856:  d7LVaku!,6AK2`jt~+5?
+Event Time = 1614.075 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1639.352 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1668.193 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1678.420 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1706.695 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1736.414 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1765.258 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1790.775 B: LAYER 3  Seq/Ack/Check = 11/11/725158163:  ,16;AFKPUZ,ejoty~&+0
+Event Time = 1817.666 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time = 1841.142 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.V~Iq.d.V~Iq;
+Event Time = 1870.007 B: LAYER 3  Seq/Ack/Check = 15/15/-1093754917:  d{iVD1|jWE2}2X03~lYG
+Event Time = 1897.174 B: LAYER 3  Seq/Ack/Check = 16/16/1818540362:  10x.-,+*)('&%$#1~}|{
+Event Time = 1927.267 B: LAYER 3  Seq/Ack/Check = 17/17/-1280639672:  2CSdt'7HXiy,<M^n21BR
+Event Time = 1952.443 B: LAYER 3  Seq/Ack/Check = 18/18/-952330305:  3Uw;^!Df*Ln2Tv:]~3e)
+Event Time = 1957.925 B: LAYER 3  Seq/Ack/Check = 19/19/-868674615:  4f=qGzP&Yxc8lB3K~T4^
+Event Time = 1979.777 B: LAYER 3  Seq/Ack/Check = 20/20/-845450275:  5zb0Iu]D+pW>&kR9~fM5
+Event Time = 1995.416 B: LAYER 3  Seq/Ack/Check = 21/21/2078520459:  6x~(wpibZSLE=6x(~wpi
+Event Time = 2013.724 B: LAYER 3  Seq/Ack/Check = 22/22/-372015856:  d7LVaku!,6AK2`jt~+5?
+Event Time = 2022.964 B: LAYER 3  Seq/Ack/Check = 23/23/-1967922787:  8T8.J?$f[w5Qm+Gc~<Xt
+Event Time = 2038.192 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2063.457 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2078.610 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2082.839 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2095.108 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2115.917 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2120.824 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2142.450 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time = 2144.182 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.V~Iq.d.V~Iq;
+Event Time = 2158.920 B: LAYER 3  Seq/Ack/Check = 14/14/-950406659:  xiE~Z6pL(b=wSxiE~Z6p
+Event Time = 2188.531 B: LAYER 3  Seq/Ack/Check = 15/15/-1093754917:  d{iVD1|jWE2}2X03~lYG
+Event Time = 2206.459 B: LAYER 3  Seq/Ack/Check = 16/16/1818540362:  10x.-,+*)('&%$#1~}|{
+Event Time = 2236.896 B: LAYER 3  Seq/Ack/Check = 17/7929873/-1280639672:  2CSdt'7HXi,<M^n21BR
+Event Time = 2253.116 B: LAYER 3  Seq/Ack/Check = 18/18/-952330305:  3Uw;^!Df*Ln2Tv:]~3e)
+Event Time = 2281.969 B: LAYER 3  Seq/Ack/Check = 19/19/-868674615:  4f=qGzP&Yxc8lB3K~T4^
+Event Time = 2285.349 B: LAYER 3  Seq/Ack/Check = 20/20/-845450275:  >zbI0u]D+pW5&kR9~fM5
+Event Time = 2290.519 B: LAYER 3  Seq/Ack/Check = 21/21/2066265227:  6x(~wpibZSLE=6x?~wpi
+Event Time = 2320.960 B: LAYER 3  Seq/Ack/Check = 22/22/-372015774:  7LVaku!,6AK3`jt~+5?
+Event Time = 2348.879 B: LAYER 3  Seq/Ack/Check = 23/23/-1967922787:  8T8.Jf$?[w5Qm+Gc~<Xt
+Event Time = 2377.735 B: LAYER 3  Seq/Ack/Check = 24/24/245088078:  9g693a0^-Z*W'T$Q~N{K
+Event Time = 2388.530 B: LAYER 3  Seq/Ack/Check = 26/26/1218045262:  ;.~qd;I;.~qdVI;.~qdV
+Event Time = 2390.934 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2393.736 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2420.583 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2438.267 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2453.724 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2475.694 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2488.759 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2513.254 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2539.118 B: LAYER 3  Seq/Ack/Check = 15/15/-1093754917:  d{iVD1|jWE2}2X03~lYG
+Event Time = 2555.897 B: LAYER 3  Seq/Ack/Check = 16/16/1818540362:  10x.-,+*)('&%$#1~}|{
+Event Time = 2563.887 B: LAYER 3  Seq/Ack/Check = 18/18/-952330305:  3Uw;^!Df*Ln2Tv:]~3e)
+Event Time = 2582.029 B: LAYER 3  Seq/Ack/Check = 19/19/-868674615:  4f=qGzP&Yxc8lB3K~T4^
+Event Time = 2609.370 B: LAYER 3  Seq/Ack/Check = 20/20/-845450275:  5z>I0u]D+pWb&kR9~fM5
+Event Time = 2637.717 B: LAYER 3  Seq/Ack/Check = 21/21/2078520459:  6x(~wpibZSLE=6x(~wpi
+Event Time = 2653.031 B: LAYER 3  Seq/Ack/Check = 22/22/-372015856:  d7LVaku!,6AK2`jt~+5?
+Event Time = 2662.564 B: LAYER 3  Seq/Ack/Check = 23/23/-1967922787:  8T8.Jf$?[w5Qm+Gc~<Xt
+Event Time = 2677.627 B: LAYER 3  Seq/Ack/Check = 24/24/245088078:  9g693a0^-Z*W'T$Q~N{K
+Event Time = 2706.697 B: LAYER 3  Seq/Ack/Check = 25/25/-1606178323:  :yZ;:[<{]=|^>}_?~`A!
+Event Time = 2723.138 B: LAYER 3  Seq/Ack/Check = 26/26/1218045262:  ;.~qd;I;.~qdVI;.~qdV
+Event Time = 2736.936 B: LAYER 3  Seq/Ack/Check = 27/27/594666345:  <AEIMQ<Y^bfjnrvz~%)-
+Event Time = 2764.798 B: LAYER 3  Seq/Ack/Check = 28/28/2132668443:  =fi~6Lb=xEZp(=3i~6Lb
+Event Time = 2766.755 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2773.554 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2802.423 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2811.281 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2818.665 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2840.316 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2856.956 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2886.826 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2912.219 B: LAYER 3  Seq/Ack/Check = 15/15/-1093754917:  d{iVD1|jWE2}2X03~lYG
+Event Time = 2942.710 B: LAYER 3  Seq/Ack/Check = 16/16/1818540362:  10x.-,+*)('&%$#1~}|{
+Event Time = 2971.917 B: LAYER 3  Seq/Ack/Check = 17/17/-1280639672:  2CSdt'7HXiy,<M^n21BR
+Event Time = 2973.180 B: LAYER 3  Seq/Ack/Check = 18/18/-952330305:  3Uw;^!Df*Ln2Tv:]~3e)
+Event Time = 2974.460 B: LAYER 3  Seq/Ack/Check = 19/21523/-868674615:  4f=qGzP&Yxc8lB3K~4^
+Event Time = 3001.996 B: LAYER 3  Seq/Ack/Check = 20/20/-845450275:  5zbI0u]D+pW>&kR9~fM5
+Event Time = 3023.849 B: LAYER 3  Seq/Ack/Check = 21/21/2078520459:  6x(~wpibZSLE=6x(~wpi
+Event Time = 3053.244 B: LAYER 3  Seq/Ack/Check = 22/22/-372015856:  d7LVaku!,6AK2`jt~+5?
+Event Time = 3078.103 B: LAYER 3  Seq/Ack/Check = 23/23/-1967922787:  8T8.Jf$?[w5Qm+Gc~<Xt
+Event Time = 3109.059 B: LAYER 3  Seq/Ack/Check = 24/24/245088078:  9g693a0^-Z*W'T$Q~N{K
+Event Time = 3119.738 B: LAYER 3  Seq/Ack/Check = 25/25/-1606178323:  :yZ;:[<{]=|^>}_?~`A!
+Event Time = 3134.460 B: LAYER 3  Seq/Ack/Check = 26/26/1218045297:  ;.~qd;I;.~qdVI;.~NdV
+Event Time = 3144.831 B: LAYER 3  Seq/Ack/Check = 27/27/594666345:  <AEIMQ<Y^bfjnrvz~%)-
+Event Time = 3158.233 B: LAYER 3  Seq/Ack/Check = 28/28/2132668443:  =fi~6Lb=xEZp(=3i~6Lb
+Event Time = 3176.001 B: LAYER 3  Seq/Ack/Check = 29/29/-26412993:  dfxV}Gn7>(Ov2g0W~Ho8
+Event Time = 3187.004 B: LAYER 3  Seq/Ack/Check = 30/52254/3617363:  ?xS.gBzU0?D|W2kF~Y4m
+Event Time = 3215.209 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3230.137 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3254.844 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3273.466 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3301.487 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3330.029 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3341.697 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3369.543 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3382.024 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3410.560 B: LAYER 3  Seq/Ack/Check = 16/16/1818540362:  10x.-,+*)('&%$#1~}|{
+Event Time = 3425.278 B: LAYER 3  Seq/Ack/Check = 17/17/-1280639672:  2CSdt'72Xiy,<M^nH1BR
+Event Time = 3432.903 B: LAYER 3  Seq/Ack/Check = 18/18/-952330305:  3Uw;^!Df*Ln2Tv:]~3e)
+Event Time = 3435.998 B: LAYER 3  Seq/Ack/Check = 20/20/-845450275:  5zbI0u]D+pW>&kR9~fM5
+Event Time = 3446.088 B: LAYER 3  Seq/Ack/Check = 22/22/-372015856:  d7LVaku!,6AK2`jt~+5?
+Event Time = 3449.426 B: LAYER 3  Seq/Ack/Check = 23/23/-1967922787:  8T8.Jf$?[w5Qm+Gc~<Xt
+Event Time = 3479.833 B: LAYER 3  Seq/Ack/Check = 24/24/245088078:  9g693a0^-Z*W'T$Q~N{K
+Event Time = 3505.475 B: LAYER 3  Seq/Ack/Check = 26/26/1218045262:  ;.~qd;I;.~qdVI;.~qdV
+Event Time = 3506.803 B: LAYER 3  Seq/Ack/Check = 27/27/594666345:  <AEIMQ<Y^bfjnrvz~%)-
+Event Time = 3521.348 B: LAYER 3  Seq/Ack/Check = 29/29/-26412993:  dfxV}Gn7>(Ov2g0W~Ho8
+Event Time = 3539.365 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3568.618 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3576.385 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3602.698 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3608.801 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3609.917 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3617.700 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3636.932 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3664.125 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3668.709 B: LAYER 3  Seq/Ack/Check = 15/15/-1093754917:  d{iVD1|jWE2}2X03~lYG
+Event Time = 3691.052 B: LAYER 3  Seq/Ack/Check = 16/16/1818540362:  10x.-,+*)('&%$#1~}|{
+Event Time = 3720.834 B: LAYER 3  Seq/Ack/Check = 17/17/-1280639672:  2CSdt'7HXiy,<M^n21BR
+Event Time = 3734.314 B: LAYER 3  Seq/Ack/Check = 18/18/-952330305:  3Uw;^!Df*Ln2Tv:]~3e)
+Event Time = 3739.225 B: LAYER 3  Seq/Ack/Check = 19/19/-868674615:  4f=qGlP&Yxc8zB3K~T4^
+Event Time = 3753.455 B: LAYER 3  Seq/Ack/Check = 20/20/-845450275:  5zbI0u]D+pW>&kR9~fM5
+Event Time = 3772.025 B: LAYER 3  Seq/Ack/Check = 21/21/2078520459:  6x(~wpibZSLE=6x(~wpi
+Event Time = 3777.807 B: LAYER 3  Seq/Ack/Check = 22/22/-372015856:  d7LVaku!,6AK2`jt~+5?
+Event Time = 3791.796 B: LAYER 3  Seq/Ack/Check = 25/25/-1606178323:  :yZ;:[<{]=|^>}_?~`A!
+Event Time = 3799.199 B: LAYER 3  Seq/Ack/Check = 26/26/1218045262:  ;.~qd;I;.~qdVI;.~qdV
+Event Time = 3821.945 B: LAYER 3  Seq/Ack/Check = 27/27/594666345:  <AEIMQ<Y^bfjnrvz~%)-
+Event Time = 3851.715 B: LAYER 3  Seq/Ack/Check = 29/29/-26412993:  dfxV}Gn7>(Ov2g0W~Ho8
+Event Time = 3855.123 B: LAYER 3  Seq/Ack/Check = 30/30/-868797869:  ?xS.gBzU0?D|W2kF~Y4m
+Event Time = 3856.565 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3874.346 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3895.050 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3902.840 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3904.765 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3918.310 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3934.407 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3942.314 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3960.665 B: LAYER 3  Seq/Ack/Check = 22/22/-372015856:  d7LVaku!,6AK2`jt~+5?
+Event Time = 3971.201 B: LAYER 3  Seq/Ack/Check = 23/23/-1967922787:  8T8.Jf$?[w5Qm+Gc~<Xt
+Event Time = 3991.248 B: LAYER 3  Seq/Ack/Check = 25/25/-1606178323:  :yZ;:[<{]=|^>}_?~`A!
+Event Time = 4003.341 B: LAYER 3  Seq/Ack/Check = 26/26/1218045262:  ;.~qd;I;.~qdVI;.~qdV
+Event Time = 4024.150 B: LAYER 3  Seq/Ack/Check = 27/27/594666345:  <AEIMQ<Y^bfjnrvz~%)-
+Event Time = 4034.316 B: LAYER 3  Seq/Ack/Check = 28/28/2132668443:  =fi~6Lb=xELp(=3i~6Zb
+Event Time = 4036.733 B: LAYER 3  Seq/Ack/Check = 29/29/-26412993:  bfx3}Gn7>(OvVg0W~Ho8
+Event Time = 4058.221 B: LAYER 3  Seq/Ack/Check = 30/30/-868797869:  ?xS.gBzU0?D|W2kF~Y4m
+Event Time = 4062.625 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4090.801 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4097.956 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4103.425 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4133.994 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4143.710 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4162.935 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4168.429 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4188.718 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4215.449 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4217.452 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4243.854 B: LAYER 3  Seq/Ack/Check = 22/22/-372015856:  d7LVaku!,6AK2`jt~+5?
+Event Time = 4274.183 B: LAYER 3  Seq/Ack/Check = 23/23/-1967922787:  8T8.Jf$?[w5Qm+Gc~<Xt
+Event Time = 4287.615 B: LAYER 3  Seq/Ack/Check = 24/24/245088078:  9g693a0^-Z*W'T$Q~N{K
+Event Time = 4288.690 B: LAYER 3  Seq/Ack/Check = 25/25/-1606178323:  :yZ;:[<{]=|^>}_?~`A!
+Event Time = 4294.176 B: LAYER 3  Seq/Ack/Check = 26/436207616/1218045262:  ;.~qd;I;.~qdVI;.~qdV
+Event Time = 4298.825 B: LAYER 3  Seq/Ack/Check = 27/27/594666345:  <AEIMQ<Y^bfjnrvz~%)-
+Event Time = 4323.958 B: LAYER 3  Seq/Ack/Check = 29/29/-26412993:  dfxV}Gn7>(Ov2g0W~Ho8
+Event Time = 4329.774 B: LAYER 3  Seq/Ack/Check = 30/30/-868797869:  ?xS.gBzU0?D|W2kF~Y4m
+Event Time = 4333.813 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4360.639 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4363.203 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4375.631 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4397.426 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4406.683 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4425.416 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4433.102 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4459.609 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4462.452 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4486.651 B: LAYER 3  Seq/Ack/Check = 21/21/2078520459:  6x(~wpibZSLE=6x(~wpi
+Event Time = 4495.834 B: LAYER 3  Seq/Ack/Check = 22/22/-372015856:  d7LVaku!,6AK2`jt~+5?
+Event Time = 4519.135 B: LAYER 3  Seq/Ack/Check = 23/23/-1967922787:  8T8.Jf$?[w5Qm+Gc~<Xt
+Event Time = 4530.430 B: LAYER 3  Seq/Ack/Check = 24/24/245088078:  9g693a0^-Z*W'T$Q~N{K
+Event Time = 4535.076 B: LAYER 3  Seq/Ack/Check = 25/25/-1606178323:  :yZ;:[<{]=|^>}_?~`A!
+Event Time = 4543.183 B: LAYER 3  Seq/Ack/Check = 28/28/2132668443:  =fi~6Lb=xEZp(=3i~6Lb
+Event Time = 4558.110 B: LAYER 3  Seq/Ack/Check = 29/29/-26412993:  dfxV}Gn7>(Ov2g0W~Ho8
+Event Time = 4576.345 B: LAYER 3  Seq/Ack/Check = 30/30/-868797869:  ?xS.gBzU0?D|W2kF~Y4m
+Event Time = 4600.597 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4623.131 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4639.147 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4645.390 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4672.881 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4679.689 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4705.059 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4735.816 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4754.220 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4758.028 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4784.000 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4785.322 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4811.797 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4817.679 B: LAYER 3  Seq/Ack/Check = 25/25/-1606178323:  :yZ;:[<{]=|^>}_?~`A!
+Event Time = 4848.240 B: LAYER 3  Seq/Ack/Check = 26/26/1218045262:  ;.~qd;I;.~qdVI;.~qdV
+Event Time = 4854.302 B: LAYER 3  Seq/Ack/Check = 27/27/594666345:  <AEIMQ<Y^bfjnrvz~%)-
+Event Time = 4861.140 B: LAYER 3  Seq/Ack/Check = 28/28/2132668443:  =fi~6Lb=xEZp(=3i~6Lb
+Event Time = 4867.891 B: LAYER 3  Seq/Ack/Check = 29/29/-26412993:  dfxV}Gn7>(Ov2g0W~Ho8
+Event Time = 4888.324 B: LAYER 3  Seq/Ack/Check = 30/30/-868797869:  ?xS.gBzU0?D|W2kF~Y4m
+Event Time = 4911.085 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4926.897 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4952.690 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4975.929 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4997.109 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 5013.425 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 5035.480 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 5059.288 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 5077.181 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 5082.009 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 5086.722 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 5115.434 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+
+
+----Timer interrupt has occured.----
+----A will resend packets----
+
+Printing the contents of the Simulation Event Q
+Event Time =  467.392 A: Timer    
+Event Time =  471.666 B: LAYER 3  Seq/Ack/Check = 7/7/1774423615:  (Eb~=Z(6SpxLi(Eb~=Zw
+Event Time =  495.091 B: LAYER 3  Seq/Ack/Check = 8/8/1016854966:  dW(V'U&)%S$R2Q!P~O}N
+Event Time =  501.839 B: LAYER 3  Seq/Ack/Check = 9/9/-208149110:  *jL.nP2r*6vX:z]>~aC%
+Event Time =  512.623 B: LAYER 3  Seq/Ack/Check = 10/10/-754911721:  +fpdWK>2&+k_RF3-~rfY
+Event Time =  529.609 B: LAYER 3  Seq/Ack/Check = 11/11/725158163:  ,o6;AFKPUZ,ej1ty~&+0
+Event Time =  544.330 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time =  550.643 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  570.611 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  573.479 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  602.065 B: LAYER 3  Seq/Ack/Check = 8/8/1016854966:  dW(V'U&)%S$R2Q!P~O}N
+Event Time =  609.605 B: LAYER 3  Seq/Ack/Check = 9/9/-208149110:  *jL.nP2r*6vX:z]>~aC%
+Event Time =  617.341 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time =  619.073 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.V~Iq.d.V~Iq;
+Event Time =  636.499 B: LAYER 3  Seq/Ack/Check = 14/14/-950406659:  xiE~Z6pL(b=wSxiE~Z6p
+Event Time =  652.816 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  681.264 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  683.016 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  696.305 B: LAYER 3  Seq/Ack/Check = 7/7/1774423615:  (Eb~=Z(6SpxLi(Eb~=Zw
+Event Time =  705.955 B: LAYER 3  Seq/Ack/Check = 8/-1241513976/1016854784:  bW(V'U&)%S$R3Q!P~O}N
+Event Time =  715.276 B: LAYER 3  Seq/Ack/Check = 9/9/-208149110:  *jL.nP2r*6vX:z]>~aC%
+Event Time =  735.495 B: LAYER 3  Seq/Ack/Check = 10/10/-754911721:  +fpdWK>2&+k_RF3-~rfY
+Event Time =  751.193 B: LAYER 3  Seq/Ack/Check = 11/11/725158163:  ,16;AFKPUZ,ejoty~&+0
+Event Time =  759.448 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time =  765.482 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.;~Iq.d.V~IqV
+Event Time =  771.049 B: LAYER 3  Seq/Ack/Check = 14/14/-950406659:  xiE~Z6pL(b=wSxiE~Z6p
+Event Time =  796.676 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  822.917 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  833.247 B: LAYER 3  Seq/Ack/Check = 167772160/10/-754911721:  +fpdWK>2&+k_RF3-~rfY
+Event Time =  861.310 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time =  871.633 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.V~Iq.d.V~Iq;
+Event Time =  894.017 B: LAYER 3  Seq/Ack/Check = 15/15/-1093754917:  d{iVD1|jWE2}2X03~lYG
+Event Time =  902.909 B: LAYER 3  Seq/Ack/Check = 16/16/1818540362:  10x.-,+*)('&%$#1~}|{
+Event Time =  930.646 B: LAYER 3  Seq/Ack/Check = 17/17/-1280639672:  2CSdt'7HXiy,<M^n21BR
+Event Time =  944.169 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  958.292 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  977.133 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time =  993.133 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1012.777 B: LAYER 3  Seq/Ack/Check = 10/10/-754911721:  +fpdWK>2&+k_RF3-~rfY
+Event Time = 1023.095 B: LAYER 3  Seq/Ack/Check = 11/11/725158163:  ,16;AFKPUZ,ejoty~&+0
+Event Time = 1037.102 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time = 1064.079 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.V~Iq.d.V~Iq;
+Event Time = 1075.694 B: LAYER 3  Seq/Ack/Check = 14/14/-950406659:  xiE~Z6pL(b=wSxiE~Z6p
+Event Time = 1087.844 B: LAYER 3  Seq/Ack/Check = 17/17/-1280639672:  2CSdt'7HXiy,<M^n21BR
+Event Time = 1093.981 B: LAYER 3  Seq/Ack/Check = 18/18/-952330305:  3Uw;^!Df*Ln2Tv:]~3e)
+Event Time = 1095.633 B: LAYER 3  Seq/Ack/Check = 19/19/-868674615:  4f=qPzG&Yxc8lB3K~T4^
+Event Time = 1124.666 B: LAYER 3  Seq/Ack/Check = 20/20/-847350819:  5zbI0u]D+pW>&kR9?fM5
+Event Time = 1149.502 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1159.454 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1166.463 B: LAYER 3  Seq/Ack/Check = 10/10/-754911721:  +fpdWK>2&+k_RF3-~rfY
+Event Time = 1181.495 B: LAYER 3  Seq/Ack/Check = 11/11/724961555:  ,19;AFKPUZ,ejoty~&+0
+Event Time = 1211.104 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time = 1217.697 B: LAYER 3  Seq/Ack/Check = 13/13/785721994:  jV~Iq;d.V~Iq.d.V~Iq;
+Event Time = 1221.175 B: LAYER 3  Seq/Ack/Check = 14/14/-950406659:  xiE~Z6pL(b=wSxiE~Z6p
+Event Time = 1248.450 B: LAYER 3  Seq/Ack/Check = 15/15/-1093754917:  d{iVD1|jWE2}2X03~lYG
+Event Time = 1256.168 B: LAYER 3  Seq/Ack/Check = 16/16/1815198026:  10x.-,+*)('&%$#d~}|{
+Event Time = 1257.487 B: LAYER 3  Seq/Ack/Check = 17/17/-1280639672:  2CSdt'7HXiy,<M^n21BR
+Event Time = 1272.607 B: LAYER 3  Seq/Ack/Check = 20/20/-845450275:  5zbI0u]D+pW>&kR9~fM5
+Event Time = 1290.766 B: LAYER 3  Seq/Ack/Check = 21/21/1172550795:  6x(~wpibZSL{=6x(~wpi
+Event Time = 1299.397 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1307.958 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1312.949 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1328.534 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1357.360 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1382.142 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1389.724 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1416.043 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1445.368 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1450.665 B: LAYER 3  Seq/Ack/Check = 10/3276810/-754911721:  +fpdWK>&+k_RF3-~rfY
+Event Time = 1467.977 B: LAYER 3  Seq/Ack/Check = 11/11/725158163:  ,16;AFKPUZ,ejoty~&+0
+Event Time = 1472.159 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time = 1502.280 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.V~Iq.d.V~Iq;
+Event Time = 1509.018 B: LAYER 3  Seq/Ack/Check = 14/14/-950406659:  xiE~Z6pL(b=wSxiE~Z6p
+Event Time = 1534.320 B: LAYER 3  Seq/Ack/Check = 16/16/1818540362:  10x.-,+*)('&%$#1~}|{
+Event Time = 1541.735 B: LAYER 3  Seq/Ack/Check = 17/17/-1280639672:  2CSd,'7HXiyt<M^n21BR
+Event Time = 1560.469 B: LAYER 3  Seq/Ack/Check = 18/18/-952330305:  3Uw;^!Df*Ln2Tv:]~3e)
+Event Time = 1567.192 B: LAYER 3  Seq/Ack/Check = 20/20/-845450275:  5zbI0u]D+pW>&kR9~fM5
+Event Time = 1592.085 B: LAYER 3  Seq/Ack/Check = 21/21/2078520459:  6x(~wpibZSLE=6x(~wpi
+Event Time = 1607.461 B: LAYER 3  Seq/Ack/Check = 22/22/-372015856:  d7LVaku!,6AK2`jt~+5?
+Event Time = 1614.075 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1639.352 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1668.193 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1678.420 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1706.695 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1736.414 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1765.258 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 1790.775 B: LAYER 3  Seq/Ack/Check = 11/11/725158163:  ,16;AFKPUZ,ejoty~&+0
+Event Time = 1817.666 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time = 1841.142 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.V~Iq.d.V~Iq;
+Event Time = 1870.007 B: LAYER 3  Seq/Ack/Check = 15/15/-1093754917:  d{iVD1|jWE2}2X03~lYG
+Event Time = 1897.174 B: LAYER 3  Seq/Ack/Check = 16/16/1818540362:  10x.-,+*)('&%$#1~}|{
+Event Time = 1927.267 B: LAYER 3  Seq/Ack/Check = 17/17/-1280639672:  2CSdt'7HXiy,<M^n21BR
+Event Time = 1952.443 B: LAYER 3  Seq/Ack/Check = 18/18/-952330305:  3Uw;^!Df*Ln2Tv:]~3e)
+Event Time = 1957.925 B: LAYER 3  Seq/Ack/Check = 19/19/-868674615:  4f=qGzP&Yxc8lB3K~T4^
+Event Time = 1979.777 B: LAYER 3  Seq/Ack/Check = 20/20/-845450275:  5zb0Iu]D+pW>&kR9~fM5
+Event Time = 1995.416 B: LAYER 3  Seq/Ack/Check = 21/21/2078520459:  6x~(wpibZSLE=6x(~wpi
+Event Time = 2013.724 B: LAYER 3  Seq/Ack/Check = 22/22/-372015856:  d7LVaku!,6AK2`jt~+5?
+Event Time = 2022.964 B: LAYER 3  Seq/Ack/Check = 23/23/-1967922787:  8T8.J?$f[w5Qm+Gc~<Xt
+Event Time = 2038.192 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2063.457 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2078.610 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2082.839 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2095.108 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2115.917 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2120.824 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2142.450 B: LAYER 3  Seq/Ack/Check = 12/12/1028369841:  -DZq*AWn'=T-$:Qh~7Ne
+Event Time = 2144.182 B: LAYER 3  Seq/Ack/Check = 13/13/1792354954:  .V~Iq;d.V~Iq.d.V~Iq;
+Event Time = 2158.920 B: LAYER 3  Seq/Ack/Check = 14/14/-950406659:  xiE~Z6pL(b=wSxiE~Z6p
+Event Time = 2188.531 B: LAYER 3  Seq/Ack/Check = 15/15/-1093754917:  d{iVD1|jWE2}2X03~lYG
+Event Time = 2206.459 B: LAYER 3  Seq/Ack/Check = 16/16/1818540362:  10x.-,+*)('&%$#1~}|{
+Event Time = 2236.896 B: LAYER 3  Seq/Ack/Check = 17/7929873/-1280639672:  2CSdt'7HXi,<M^n21BR
+Event Time = 2253.116 B: LAYER 3  Seq/Ack/Check = 18/18/-952330305:  3Uw;^!Df*Ln2Tv:]~3e)
+Event Time = 2281.969 B: LAYER 3  Seq/Ack/Check = 19/19/-868674615:  4f=qGzP&Yxc8lB3K~T4^
+Event Time = 2285.349 B: LAYER 3  Seq/Ack/Check = 20/20/-845450275:  >zbI0u]D+pW5&kR9~fM5
+Event Time = 2290.519 B: LAYER 3  Seq/Ack/Check = 21/21/2066265227:  6x(~wpibZSLE=6x?~wpi
+Event Time = 2320.960 B: LAYER 3  Seq/Ack/Check = 22/22/-372015774:  7LVaku!,6AK3`jt~+5?
+Event Time = 2348.879 B: LAYER 3  Seq/Ack/Check = 23/23/-1967922787:  8T8.Jf$?[w5Qm+Gc~<Xt
+Event Time = 2377.735 B: LAYER 3  Seq/Ack/Check = 24/24/245088078:  9g693a0^-Z*W'T$Q~N{K
+Event Time = 2388.530 B: LAYER 3  Seq/Ack/Check = 26/26/1218045262:  ;.~qd;I;.~qdVI;.~qdV
+Event Time = 2390.934 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2393.736 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2420.583 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2438.267 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2453.724 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2475.694 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2488.759 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2513.254 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2539.118 B: LAYER 3  Seq/Ack/Check = 15/15/-1093754917:  d{iVD1|jWE2}2X03~lYG
+Event Time = 2555.897 B: LAYER 3  Seq/Ack/Check = 16/16/1818540362:  10x.-,+*)('&%$#1~}|{
+Event Time = 2563.887 B: LAYER 3  Seq/Ack/Check = 18/18/-952330305:  3Uw;^!Df*Ln2Tv:]~3e)
+Event Time = 2582.029 B: LAYER 3  Seq/Ack/Check = 19/19/-868674615:  4f=qGzP&Yxc8lB3K~T4^
+Event Time = 2609.370 B: LAYER 3  Seq/Ack/Check = 20/20/-845450275:  5z>I0u]D+pWb&kR9~fM5
+Event Time = 2637.717 B: LAYER 3  Seq/Ack/Check = 21/21/2078520459:  6x(~wpibZSLE=6x(~wpi
+Event Time = 2653.031 B: LAYER 3  Seq/Ack/Check = 22/22/-372015856:  d7LVaku!,6AK2`jt~+5?
+Event Time = 2662.564 B: LAYER 3  Seq/Ack/Check = 23/23/-1967922787:  8T8.Jf$?[w5Qm+Gc~<Xt
+Event Time = 2677.627 B: LAYER 3  Seq/Ack/Check = 24/24/245088078:  9g693a0^-Z*W'T$Q~N{K
+Event Time = 2706.697 B: LAYER 3  Seq/Ack/Check = 25/25/-1606178323:  :yZ;:[<{]=|^>}_?~`A!
+Event Time = 2723.138 B: LAYER 3  Seq/Ack/Check = 26/26/1218045262:  ;.~qd;I;.~qdVI;.~qdV
+Event Time = 2736.936 B: LAYER 3  Seq/Ack/Check = 27/27/594666345:  <AEIMQ<Y^bfjnrvz~%)-
+Event Time = 2764.798 B: LAYER 3  Seq/Ack/Check = 28/28/2132668443:  =fi~6Lb=xEZp(=3i~6Lb
+Event Time = 2766.755 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2773.554 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2802.423 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2811.281 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2818.665 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2840.316 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2856.956 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2886.826 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 2912.219 B: LAYER 3  Seq/Ack/Check = 15/15/-1093754917:  d{iVD1|jWE2}2X03~lYG
+Event Time = 2942.710 B: LAYER 3  Seq/Ack/Check = 16/16/1818540362:  10x.-,+*)('&%$#1~}|{
+Event Time = 2971.917 B: LAYER 3  Seq/Ack/Check = 17/17/-1280639672:  2CSdt'7HXiy,<M^n21BR
+Event Time = 2973.180 B: LAYER 3  Seq/Ack/Check = 18/18/-952330305:  3Uw;^!Df*Ln2Tv:]~3e)
+Event Time = 2974.460 B: LAYER 3  Seq/Ack/Check = 19/21523/-868674615:  4f=qGzP&Yxc8lB3K~4^
+Event Time = 3001.996 B: LAYER 3  Seq/Ack/Check = 20/20/-845450275:  5zbI0u]D+pW>&kR9~fM5
+Event Time = 3023.849 B: LAYER 3  Seq/Ack/Check = 21/21/2078520459:  6x(~wpibZSLE=6x(~wpi
+Event Time = 3053.244 B: LAYER 3  Seq/Ack/Check = 22/22/-372015856:  d7LVaku!,6AK2`jt~+5?
+Event Time = 3078.103 B: LAYER 3  Seq/Ack/Check = 23/23/-1967922787:  8T8.Jf$?[w5Qm+Gc~<Xt
+Event Time = 3109.059 B: LAYER 3  Seq/Ack/Check = 24/24/245088078:  9g693a0^-Z*W'T$Q~N{K
+Event Time = 3119.738 B: LAYER 3  Seq/Ack/Check = 25/25/-1606178323:  :yZ;:[<{]=|^>}_?~`A!
+Event Time = 3134.460 B: LAYER 3  Seq/Ack/Check = 26/26/1218045297:  ;.~qd;I;.~qdVI;.~NdV
+Event Time = 3144.831 B: LAYER 3  Seq/Ack/Check = 27/27/594666345:  <AEIMQ<Y^bfjnrvz~%)-
+Event Time = 3158.233 B: LAYER 3  Seq/Ack/Check = 28/28/2132668443:  =fi~6Lb=xEZp(=3i~6Lb
+Event Time = 3176.001 B: LAYER 3  Seq/Ack/Check = 29/29/-26412993:  dfxV}Gn7>(Ov2g0W~Ho8
+Event Time = 3187.004 B: LAYER 3  Seq/Ack/Check = 30/52254/3617363:  ?xS.gBzU0?D|W2kF~Y4m
+Event Time = 3215.209 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3230.137 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3254.844 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3273.466 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3301.487 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3330.029 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3341.697 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3369.543 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3382.024 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3410.560 B: LAYER 3  Seq/Ack/Check = 16/16/1818540362:  10x.-,+*)('&%$#1~}|{
+Event Time = 3425.278 B: LAYER 3  Seq/Ack/Check = 17/17/-1280639672:  2CSdt'72Xiy,<M^nH1BR
+Event Time = 3432.903 B: LAYER 3  Seq/Ack/Check = 18/18/-952330305:  3Uw;^!Df*Ln2Tv:]~3e)
+Event Time = 3435.998 B: LAYER 3  Seq/Ack/Check = 20/20/-845450275:  5zbI0u]D+pW>&kR9~fM5
+Event Time = 3446.088 B: LAYER 3  Seq/Ack/Check = 22/22/-372015856:  d7LVaku!,6AK2`jt~+5?
+Event Time = 3449.426 B: LAYER 3  Seq/Ack/Check = 23/23/-1967922787:  8T8.Jf$?[w5Qm+Gc~<Xt
+Event Time = 3479.833 B: LAYER 3  Seq/Ack/Check = 24/24/245088078:  9g693a0^-Z*W'T$Q~N{K
+Event Time = 3505.475 B: LAYER 3  Seq/Ack/Check = 26/26/1218045262:  ;.~qd;I;.~qdVI;.~qdV
+Event Time = 3506.803 B: LAYER 3  Seq/Ack/Check = 27/27/594666345:  <AEIMQ<Y^bfjnrvz~%)-
+Event Time = 3521.348 B: LAYER 3  Seq/Ack/Check = 29/29/-26412993:  dfxV}Gn7>(Ov2g0W~Ho8
+Event Time = 3539.365 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3568.618 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3576.385 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3602.698 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3608.801 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3609.917 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3617.700 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3636.932 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3664.125 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3668.709 B: LAYER 3  Seq/Ack/Check = 15/15/-1093754917:  d{iVD1|jWE2}2X03~lYG
+Event Time = 3691.052 B: LAYER 3  Seq/Ack/Check = 16/16/1818540362:  10x.-,+*)('&%$#1~}|{
+Event Time = 3720.834 B: LAYER 3  Seq/Ack/Check = 17/17/-1280639672:  2CSdt'7HXiy,<M^n21BR
+Event Time = 3734.314 B: LAYER 3  Seq/Ack/Check = 18/18/-952330305:  3Uw;^!Df*Ln2Tv:]~3e)
+Event Time = 3739.225 B: LAYER 3  Seq/Ack/Check = 19/19/-868674615:  4f=qGlP&Yxc8zB3K~T4^
+Event Time = 3753.455 B: LAYER 3  Seq/Ack/Check = 20/20/-845450275:  5zbI0u]D+pW>&kR9~fM5
+Event Time = 3772.025 B: LAYER 3  Seq/Ack/Check = 21/21/2078520459:  6x(~wpibZSLE=6x(~wpi
+Event Time = 3777.807 B: LAYER 3  Seq/Ack/Check = 22/22/-372015856:  d7LVaku!,6AK2`jt~+5?
+Event Time = 3791.796 B: LAYER 3  Seq/Ack/Check = 25/25/-1606178323:  :yZ;:[<{]=|^>}_?~`A!
+Event Time = 3799.199 B: LAYER 3  Seq/Ack/Check = 26/26/1218045262:  ;.~qd;I;.~qdVI;.~qdV
+Event Time = 3821.945 B: LAYER 3  Seq/Ack/Check = 27/27/594666345:  <AEIMQ<Y^bfjnrvz~%)-
+Event Time = 3851.715 B: LAYER 3  Seq/Ack/Check = 29/29/-26412993:  dfxV}Gn7>(Ov2g0W~Ho8
+Event Time = 3855.123 B: LAYER 3  Seq/Ack/Check = 30/30/-868797869:  ?xS.gBzU0?D|W2kF~Y4m
+Event Time = 3856.565 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3874.346 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3895.050 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3902.840 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3904.765 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3918.310 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3934.407 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3942.314 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 3960.665 B: LAYER 3  Seq/Ack/Check = 22/22/-372015856:  d7LVaku!,6AK2`jt~+5?
+Event Time = 3971.201 B: LAYER 3  Seq/Ack/Check = 23/23/-1967922787:  8T8.Jf$?[w5Qm+Gc~<Xt
+Event Time = 3991.248 B: LAYER 3  Seq/Ack/Check = 25/25/-1606178323:  :yZ;:[<{]=|^>}_?~`A!
+Event Time = 4003.341 B: LAYER 3  Seq/Ack/Check = 26/26/1218045262:  ;.~qd;I;.~qdVI;.~qdV
+Event Time = 4024.150 B: LAYER 3  Seq/Ack/Check = 27/27/594666345:  <AEIMQ<Y^bfjnrvz~%)-
+Event Time = 4034.316 B: LAYER 3  Seq/Ack/Check = 28/28/2132668443:  =fi~6Lb=xELp(=3i~6Zb
+Event Time = 4036.733 B: LAYER 3  Seq/Ack/Check = 29/29/-26412993:  bfx3}Gn7>(OvVg0W~Ho8
+Event Time = 4058.221 B: LAYER 3  Seq/Ack/Check = 30/30/-868797869:  ?xS.gBzU0?D|W2kF~Y4m
+Event Time = 4062.625 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4090.801 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4097.956 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4103.425 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4133.994 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4143.710 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4162.935 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4168.429 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4188.718 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4215.449 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4217.452 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4243.854 B: LAYER 3  Seq/Ack/Check = 22/22/-372015856:  d7LVaku!,6AK2`jt~+5?
+Event Time = 4274.183 B: LAYER 3  Seq/Ack/Check = 23/23/-1967922787:  8T8.Jf$?[w5Qm+Gc~<Xt
+Event Time = 4287.615 B: LAYER 3  Seq/Ack/Check = 24/24/245088078:  9g693a0^-Z*W'T$Q~N{K
+Event Time = 4288.690 B: LAYER 3  Seq/Ack/Check = 25/25/-1606178323:  :yZ;:[<{]=|^>}_?~`A!
+Event Time = 4294.176 B: LAYER 3  Seq/Ack/Check = 26/436207616/1218045262:  ;.~qd;I;.~qdVI;.~qdV
+Event Time = 4298.825 B: LAYER 3  Seq/Ack/Check = 27/27/594666345:  <AEIMQ<Y^bfjnrvz~%)-
+Event Time = 4323.958 B: LAYER 3  Seq/Ack/Check = 29/29/-26412993:  dfxV}Gn7>(Ov2g0W~Ho8
+Event Time = 4329.774 B: LAYER 3  Seq/Ack/Check = 30/30/-868797869:  ?xS.gBzU0?D|W2kF~Y4m
+Event Time = 4333.813 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4360.639 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4363.203 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4375.631 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4397.426 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4406.683 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4425.416 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4433.102 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4459.609 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4462.452 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4486.651 B: LAYER 3  Seq/Ack/Check = 21/21/2078520459:  6x(~wpibZSLE=6x(~wpi
+Event Time = 4495.834 B: LAYER 3  Seq/Ack/Check = 22/22/-372015856:  d7LVaku!,6AK2`jt~+5?
+Event Time = 4519.135 B: LAYER 3  Seq/Ack/Check = 23/23/-1967922787:  8T8.Jf$?[w5Qm+Gc~<Xt
+Event Time = 4530.430 B: LAYER 3  Seq/Ack/Check = 24/24/245088078:  9g693a0^-Z*W'T$Q~N{K
+Event Time = 4535.076 B: LAYER 3  Seq/Ack/Check = 25/25/-1606178323:  :yZ;:[<{]=|^>}_?~`A!
+Event Time = 4543.183 B: LAYER 3  Seq/Ack/Check = 28/28/2132668443:  =fi~6Lb=xEZp(=3i~6Lb
+Event Time = 4558.110 B: LAYER 3  Seq/Ack/Check = 29/29/-26412993:  dfxV}Gn7>(Ov2g0W~Ho8
+Event Time = 4576.345 B: LAYER 3  Seq/Ack/Check = 30/30/-868797869:  ?xS.gBzU0?D|W2kF~Y4m
+Event Time = 4600.597 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4623.131 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4639.147 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4645.390 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4672.881 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4679.689 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4705.059 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4735.816 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4754.220 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4758.028 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4784.000 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4785.322 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4811.797 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4817.679 B: LAYER 3  Seq/Ack/Check = 25/25/-1606178323:  :yZ;:[<{]=|^>}_?~`A!
+Event Time = 4848.240 B: LAYER 3  Seq/Ack/Check = 26/26/1218045262:  ;.~qd;I;.~qdVI;.~qdV
+Event Time = 4854.302 B: LAYER 3  Seq/Ack/Check = 27/27/594666345:  <AEIMQ<Y^bfjnrvz~%)-
+Event Time = 4861.140 B: LAYER 3  Seq/Ack/Check = 28/28/2132668443:  =fi~6Lb=xEZp(=3i~6Lb
+Event Time = 4867.891 B: LAYER 3  Seq/Ack/Check = 29/29/-26412993:  dfxV}Gn7>(Ov2g0W~Ho8
+Event Time = 4888.324 B: LAYER 3  Seq/Ack/Check = 30/30/-868797869:  ?xS.gBzU0?D|W2kF~Y4m
+Event Time = 4911.085 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4926.897 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4952.690 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4975.929 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 4997.109 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 5013.425 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 5035.480 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 5059.288 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 5077.181 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 5082.009 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 5086.722 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 5115.434 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 5128.783 B: LAYER 3  Seq/Ack/Check = 27/27/594666345:  <A-IMQ<Y^bfjnrvz~%)E
+Event Time = 5130.371 B: LAYER 3  Seq/Ack/Check = 28/28/2132668443:  =fi~6Lb=xEZp(=3i~6Lb
+Event Time = 5140.289 B: LAYER 3  Seq/Ack/Check = 29/29/-26412993:  dfxV}Gn7>(Ov2g0W~Ho8
+Event Time = 5170.852 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 5194.896 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 5198.523 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 5208.795 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 5218.107 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 5248.536 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 5250.098 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 5273.653 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 5274.663 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 5297.364 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 5312.972 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 5337.243 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 5342.281 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+Event Time = 5345.802 B: LAYER 3  Seq/Ack/Check = 0/0/0:  
+
+
+----B received packet with sequence number: 6----
+----Payload of received packet is: '2=IT'kv$x:FQ]hs~,7C----
+B:     455.5317,  Layer 4 to 5  Message = '2=IT'kv$x:FQ]hs~,7C
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----ACK packet sent----
+
+----Timer interrupt has occured.----
+----A will resend packets----
+
+----B received packet with sequence number: 7----
+----Payload of received packet is: (Eb~=Z(6SpxLi(Eb~=Zw----
+B:     471.6659,  Layer 4 to 5  Message = (Eb~=Z(6SpxLi(Eb~=Zw
+		TOLAYER5:  PANIC!!  Data Received in this packet are wrong
+
+----ACK packet sent----
+
+
+Simulator terminated at time 474.469808
+ after receiving 25 msgs at layer5
+Simulator Analysis:
+  Number of messages sent from 5 to 4: 29
+  Number of messages received at Layer 5, side A: 0
+  Number of messages received at Layer 5, side B: 25
+  Number of messages incorrectly received at layer 5: 25
+  Number of packets entering the network: 461
+  Average number of packets already in network:   146.863
+  Number of packets that the network lost: 88
+  Number of packets that the network corrupted: 71
+  Number of packets that the network put out of order: 0
